@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-CreateTransactionalQueues\bin\Release\msmq-CreateTransactionalQueues.exe
+D:\msmq-example\msmq-CreateTransactionalQueues\bin\Release\msmq-CreateTransactionalQueues.pdb
+D:\msmq-example\msmq-CreateTransactionalQueues\obj\x86\Release\msmq-CreateTransactionalQueues.exe
+D:\msmq-example\msmq-CreateTransactionalQueues\obj\x86\Release\msmq-CreateTransactionalQueues.pdb

@@ -1,0 +1,7 @@
+D:\temp\3tir\0404-多个小练习\MoreExcise\bin\Debug\MoreExcise.exe
+D:\temp\3tir\0404-多个小练习\MoreExcise\bin\Debug\MoreExcise.pdb
+D:\temp\3tir\0404-多个小练习\MoreExcise\obj\x86\Debug\MoreExcise.Properties.Resources.resources
+D:\temp\3tir\0404-多个小练习\MoreExcise\obj\x86\Debug\MoreExcise.csproj.GenerateResource.Cache
+D:\temp\3tir\0404-多个小练习\MoreExcise\obj\x86\Debug\MoreExcise.exe
+D:\temp\3tir\0404-多个小练习\MoreExcise\obj\x86\Debug\MoreExcise.pdb
+D:\temp\3tir\0404-多个小练习\MoreExcise\obj\x86\Debug\MoreExcise.Form1.resources

@@ -1,0 +1,10 @@
+// Exercise 5.3, undefined.go
+package main
+import "fmt"
+
+func main() {
+	for i := 0; i < 10; i++ {
+		fmt.Printf("%v\n", i)
+	}
+	fmt.Printf("%v\n", i)  // <-- compile error: undefined i
+}

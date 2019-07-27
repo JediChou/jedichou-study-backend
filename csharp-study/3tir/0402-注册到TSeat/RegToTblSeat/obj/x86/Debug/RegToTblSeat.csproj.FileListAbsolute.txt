@@ -1,0 +1,8 @@
+D:\temp\0402-注册到TSeat\RegToTblSeat\bin\Debug\RegToTblSeat.exe.config
+D:\temp\0402-注册到TSeat\RegToTblSeat\bin\Debug\RegToTblSeat.exe
+D:\temp\0402-注册到TSeat\RegToTblSeat\bin\Debug\RegToTblSeat.pdb
+D:\temp\0402-注册到TSeat\RegToTblSeat\obj\x86\Debug\RegToTblSeat.Form1.resources
+D:\temp\0402-注册到TSeat\RegToTblSeat\obj\x86\Debug\RegToTblSeat.Properties.Resources.resources
+D:\temp\0402-注册到TSeat\RegToTblSeat\obj\x86\Debug\RegToTblSeat.csproj.GenerateResource.Cache
+D:\temp\0402-注册到TSeat\RegToTblSeat\obj\x86\Debug\RegToTblSeat.exe
+D:\temp\0402-注册到TSeat\RegToTblSeat\obj\x86\Debug\RegToTblSeat.pdb

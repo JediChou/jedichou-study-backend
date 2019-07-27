@@ -1,0 +1,7 @@
+D:\temp\PortScan\PortScan\bin\Debug\PortScan.exe
+D:\temp\PortScan\PortScan\bin\Debug\PortScan.pdb
+D:\temp\PortScan\PortScan\obj\x86\Debug\PortScan.frmMain.resources
+D:\temp\PortScan\PortScan\obj\x86\Debug\PortScan.Properties.Resources.resources
+D:\temp\PortScan\PortScan\obj\x86\Debug\PortScan.csproj.GenerateResource.Cache
+D:\temp\PortScan\PortScan\obj\x86\Debug\PortScan.exe
+D:\temp\PortScan\PortScan\obj\x86\Debug\PortScan.pdb

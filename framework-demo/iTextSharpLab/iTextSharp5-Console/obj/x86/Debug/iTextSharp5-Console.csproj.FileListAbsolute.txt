@@ -1,0 +1,5 @@
+D:\workspace\github\jedichou-study-csharp\iTextSharpLab\iTextSharp5-Console\bin\Debug\iTextSharp5-Console.exe
+D:\workspace\github\jedichou-study-csharp\iTextSharpLab\iTextSharp5-Console\bin\Debug\iTextSharp5-Console.pdb
+D:\workspace\github\jedichou-study-csharp\iTextSharpLab\iTextSharp5-Console\bin\Debug\itextsharp.dll
+D:\workspace\github\jedichou-study-csharp\iTextSharpLab\iTextSharp5-Console\obj\x86\Debug\iTextSharp5-Console.exe
+D:\workspace\github\jedichou-study-csharp\iTextSharpLab\iTextSharp5-Console\obj\x86\Debug\iTextSharp5-Console.pdb

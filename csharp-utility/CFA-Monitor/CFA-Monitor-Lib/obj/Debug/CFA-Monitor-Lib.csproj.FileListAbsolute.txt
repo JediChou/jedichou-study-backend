@@ -1,0 +1,4 @@
+D:\temp\CFA-Monitor\CFA-Monitor-Lib\bin\Debug\monitorlib.dll
+D:\temp\CFA-Monitor\CFA-Monitor-Lib\bin\Debug\monitorlib.pdb
+D:\temp\CFA-Monitor\CFA-Monitor-Lib\obj\Debug\monitorlib.dll
+D:\temp\CFA-Monitor\CFA-Monitor-Lib\obj\Debug\monitorlib.pdb

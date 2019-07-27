@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-create", "msmq-create\msmq-create.csproj", "{AD0829AB-D167-4124-840E-2BF31C0B0819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-insert-demo", "msmq-insert-demo\msmq-insert-demo.csproj", "{40731763-501D-4D8F-B8D7-65D41F7663D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-CreateTransactionalQueues", "msmq-CreateTransactionalQueues\msmq-CreateTransactionalQueues.csproj", "{78A30976-4E1F-410C-9B94-8B614352E9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-RetrieveQueues", "msmq-RetrieveQueues\msmq-RetrieveQueues.csproj", "{ABEF5C47-7848-4864-8675-7AEDDD8C63E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-队列", "1-队列", "{ED5D7101-FF13-4FDF-93A4-FDC2AB04D23A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-发送和序列化消息", "2-发送和序列化消息", "{7E262C65-86D7-4270-AE9E-2530AF8956B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-0201-SendSimpleMessages", "msmq-0201-SendSimpleMessages\msmq-0201-SendSimpleMessages.csproj", "{013FAD28-6A52-4683-827C-BDF099C7653A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-0202-SendComplexMessages", "msmq-0202-SendComplexMessages\msmq-0202-SendComplexMessages.csproj", "{F3C64869-BF46-4F81-87BB-EC960AC61D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-0204-SendMessagesWithinInternalTransactions", "msmq-0204-SendMessagesWithinInternalTransactions\msmq-0204-SendMessagesWithinInternalTransactions.csproj", "{ED97A49A-1171-452E-B78E-3EEB62649D09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-连接远程服务器", "3-连接远程服务器", "{62894CFA-9EC4-424B-916B-81BFD4031C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-0301-ConnectRemoteServer", "msmq-0301-ConnectRemoteServer\msmq-0301-ConnectRemoteServer.csproj", "{05D8226A-08EB-4B26-8B3C-F2518416ED68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-0302-SendMQBySelfObject", "msmq-0302-SendMQBySelfObject\msmq-0302-SendMQBySelfObject.csproj", "{BB273258-3C1A-44AC-BB9E-F5A09D6A3344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmq-0303-SendXMLMessage", "msmq-0303-SendXMLMessage\msmq-0303-SendXMLMessage.csproj", "{DF95ADD3-0544-4930-BD5E-AB13DCFEF20A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0829AB-D167-4124-840E-2BF31C0B0819}.Debug|x86.ActiveCfg = Debug|x86
+		{AD0829AB-D167-4124-840E-2BF31C0B0819}.Debug|x86.Build.0 = Debug|x86
+		{AD0829AB-D167-4124-840E-2BF31C0B0819}.Release|x86.ActiveCfg = Release|x86
+		{AD0829AB-D167-4124-840E-2BF31C0B0819}.Release|x86.Build.0 = Release|x86
+		{40731763-501D-4D8F-B8D7-65D41F7663D8}.Debug|x86.ActiveCfg = Debug|x86
+		{40731763-501D-4D8F-B8D7-65D41F7663D8}.Debug|x86.Build.0 = Debug|x86
+		{40731763-501D-4D8F-B8D7-65D41F7663D8}.Release|x86.ActiveCfg = Release|x86
+		{40731763-501D-4D8F-B8D7-65D41F7663D8}.Release|x86.Build.0 = Release|x86
+		{78A30976-4E1F-410C-9B94-8B614352E9FC}.Debug|x86.ActiveCfg = Debug|x86
+		{78A30976-4E1F-410C-9B94-8B614352E9FC}.Debug|x86.Build.0 = Debug|x86
+		{78A30976-4E1F-410C-9B94-8B614352E9FC}.Release|x86.ActiveCfg = Release|x86
+		{78A30976-4E1F-410C-9B94-8B614352E9FC}.Release|x86.Build.0 = Release|x86
+		{ABEF5C47-7848-4864-8675-7AEDDD8C63E5}.Debug|x86.ActiveCfg = Debug|x86
+		{ABEF5C47-7848-4864-8675-7AEDDD8C63E5}.Debug|x86.Build.0 = Debug|x86
+		{ABEF5C47-7848-4864-8675-7AEDDD8C63E5}.Release|x86.ActiveCfg = Release|x86
+		{ABEF5C47-7848-4864-8675-7AEDDD8C63E5}.Release|x86.Build.0 = Release|x86
+		{013FAD28-6A52-4683-827C-BDF099C7653A}.Debug|x86.ActiveCfg = Debug|x86
+		{013FAD28-6A52-4683-827C-BDF099C7653A}.Debug|x86.Build.0 = Debug|x86
+		{013FAD28-6A52-4683-827C-BDF099C7653A}.Release|x86.ActiveCfg = Release|x86
+		{013FAD28-6A52-4683-827C-BDF099C7653A}.Release|x86.Build.0 = Release|x86
+		{F3C64869-BF46-4F81-87BB-EC960AC61D1D}.Debug|x86.ActiveCfg = Debug|x86
+		{F3C64869-BF46-4F81-87BB-EC960AC61D1D}.Debug|x86.Build.0 = Debug|x86
+		{F3C64869-BF46-4F81-87BB-EC960AC61D1D}.Release|x86.ActiveCfg = Release|x86
+		{F3C64869-BF46-4F81-87BB-EC960AC61D1D}.Release|x86.Build.0 = Release|x86
+		{ED97A49A-1171-452E-B78E-3EEB62649D09}.Debug|x86.ActiveCfg = Debug|x86
+		{ED97A49A-1171-452E-B78E-3EEB62649D09}.Debug|x86.Build.0 = Debug|x86
+		{ED97A49A-1171-452E-B78E-3EEB62649D09}.Release|x86.ActiveCfg = Release|x86
+		{ED97A49A-1171-452E-B78E-3EEB62649D09}.Release|x86.Build.0 = Release|x86
+		{05D8226A-08EB-4B26-8B3C-F2518416ED68}.Debug|x86.ActiveCfg = Debug|x86
+		{05D8226A-08EB-4B26-8B3C-F2518416ED68}.Debug|x86.Build.0 = Debug|x86
+		{05D8226A-08EB-4B26-8B3C-F2518416ED68}.Release|x86.ActiveCfg = Release|x86
+		{05D8226A-08EB-4B26-8B3C-F2518416ED68}.Release|x86.Build.0 = Release|x86
+		{BB273258-3C1A-44AC-BB9E-F5A09D6A3344}.Debug|x86.ActiveCfg = Debug|x86
+		{BB273258-3C1A-44AC-BB9E-F5A09D6A3344}.Debug|x86.Build.0 = Debug|x86
+		{BB273258-3C1A-44AC-BB9E-F5A09D6A3344}.Release|x86.ActiveCfg = Release|x86
+		{BB273258-3C1A-44AC-BB9E-F5A09D6A3344}.Release|x86.Build.0 = Release|x86
+		{DF95ADD3-0544-4930-BD5E-AB13DCFEF20A}.Debug|x86.ActiveCfg = Debug|x86
+		{DF95ADD3-0544-4930-BD5E-AB13DCFEF20A}.Debug|x86.Build.0 = Debug|x86
+		{DF95ADD3-0544-4930-BD5E-AB13DCFEF20A}.Release|x86.ActiveCfg = Release|x86
+		{DF95ADD3-0544-4930-BD5E-AB13DCFEF20A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40731763-501D-4D8F-B8D7-65D41F7663D8} = {ED5D7101-FF13-4FDF-93A4-FDC2AB04D23A}
+		{78A30976-4E1F-410C-9B94-8B614352E9FC} = {ED5D7101-FF13-4FDF-93A4-FDC2AB04D23A}
+		{ABEF5C47-7848-4864-8675-7AEDDD8C63E5} = {ED5D7101-FF13-4FDF-93A4-FDC2AB04D23A}
+		{AD0829AB-D167-4124-840E-2BF31C0B0819} = {ED5D7101-FF13-4FDF-93A4-FDC2AB04D23A}
+		{013FAD28-6A52-4683-827C-BDF099C7653A} = {7E262C65-86D7-4270-AE9E-2530AF8956B7}
+		{F3C64869-BF46-4F81-87BB-EC960AC61D1D} = {7E262C65-86D7-4270-AE9E-2530AF8956B7}
+		{ED97A49A-1171-452E-B78E-3EEB62649D09} = {7E262C65-86D7-4270-AE9E-2530AF8956B7}
+		{05D8226A-08EB-4B26-8B3C-F2518416ED68} = {62894CFA-9EC4-424B-916B-81BFD4031C4F}
+		{BB273258-3C1A-44AC-BB9E-F5A09D6A3344} = {62894CFA-9EC4-424B-916B-81BFD4031C4F}
+		{DF95ADD3-0544-4930-BD5E-AB13DCFEF20A} = {62894CFA-9EC4-424B-916B-81BFD4031C4F}
+	EndGlobalSection
+EndGlobal

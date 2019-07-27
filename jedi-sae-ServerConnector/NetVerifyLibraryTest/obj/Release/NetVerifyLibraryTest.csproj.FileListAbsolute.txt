@@ -1,0 +1,4 @@
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibraryTest\bin\Release\NetVerifyLibraryTest.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibraryTest\bin\Release\NetVerifyLibraryTest.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibraryTest\obj\Release\NetVerifyLibraryTest.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibraryTest\obj\Release\NetVerifyLibraryTest.pdb

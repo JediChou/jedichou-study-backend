@@ -1,0 +1,4 @@
+D:\temp\PlugIns\PlugInterface\bin\Debug\PlugInterface.dll
+D:\temp\PlugIns\PlugInterface\bin\Debug\PlugInterface.pdb
+D:\temp\PlugIns\PlugInterface\obj\Debug\PlugInterface.dll
+D:\temp\PlugIns\PlugInterface\obj\Debug\PlugInterface.pdb

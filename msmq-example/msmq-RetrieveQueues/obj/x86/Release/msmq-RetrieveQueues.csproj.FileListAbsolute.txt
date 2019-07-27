@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-RetrieveQueues\bin\Release\msmq-RetrieveQueues.exe
+D:\msmq-example\msmq-RetrieveQueues\bin\Release\msmq-RetrieveQueues.pdb
+D:\msmq-example\msmq-RetrieveQueues\obj\x86\Release\msmq-RetrieveQueues.exe
+D:\msmq-example\msmq-RetrieveQueues\obj\x86\Release\msmq-RetrieveQueues.pdb

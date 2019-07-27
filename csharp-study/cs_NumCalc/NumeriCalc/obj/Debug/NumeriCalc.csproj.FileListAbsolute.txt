@@ -1,0 +1,5 @@
+D:\temp\cs_NumCalc\NumeriCalc\bin\Debug\NumeriCalc.dll
+D:\temp\cs_NumCalc\NumeriCalc\bin\Debug\NumeriCalc.pdb
+D:\temp\cs_NumCalc\NumeriCalc\obj\Debug\NumeriCalc.dll
+D:\temp\cs_NumCalc\NumeriCalc\obj\Debug\NumeriCalc.pdb
+D:\temp\cs_NumCalc\NumeriCalc\obj\Debug\NumeriCalc.csprojResolveAssemblyReference.cache

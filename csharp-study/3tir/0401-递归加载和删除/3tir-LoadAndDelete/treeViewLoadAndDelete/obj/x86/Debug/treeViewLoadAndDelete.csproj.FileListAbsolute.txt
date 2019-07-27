@@ -1,0 +1,8 @@
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\bin\Debug\treeViewLoadAndDelete.exe.config
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\bin\Debug\treeViewLoadAndDelete.exe
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\bin\Debug\treeViewLoadAndDelete.pdb
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\obj\x86\Debug\treeViewLoadAndDelete.Form1.resources
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\obj\x86\Debug\treeViewLoadAndDelete.Properties.Resources.resources
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\obj\x86\Debug\treeViewLoadAndDelete.csproj.GenerateResource.Cache
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\obj\x86\Debug\treeViewLoadAndDelete.exe
+D:\temp\3tir\0401-递归加载和删除\3tir-LoadAndDelete\treeViewLoadAndDelete\obj\x86\Debug\treeViewLoadAndDelete.pdb

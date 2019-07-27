@@ -1,0 +1,8 @@
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\bin\Debug\netstandard2.0\PrimeService.deps.json
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\bin\Debug\netstandard2.0\PrimeService.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\bin\Debug\netstandard2.0\PrimeService.pdb
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.csproj.CoreCompileInputs.cache
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.AssemblyInfoInputs.cache
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.AssemblyInfo.cs
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.pdb

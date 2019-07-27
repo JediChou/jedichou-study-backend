@@ -1,0 +1,9 @@
+D:\temp\cs2fs-study\list0102\bin\Debug\list0102.exe.config
+D:\temp\cs2fs-study\list0102\bin\Debug\list0102.XML
+D:\temp\cs2fs-study\list0102\bin\Debug\list0102.exe
+D:\temp\cs2fs-study\list0102\bin\Debug\list0102.pdb
+D:\temp\cs2fs-study\list0102\bin\Debug\FSharp.Core.dll
+D:\temp\cs2fs-study\list0102\bin\Debug\FSharp.Core.xml
+D:\temp\cs2fs-study\list0102\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+D:\temp\cs2fs-study\list0102\obj\Debug\list0102.exe
+D:\temp\cs2fs-study\list0102\obj\Debug\list0102.pdb

@@ -1,0 +1,6 @@
+D:\temp\FsConsoleTest\FsLibTest\bin\Debug\FsLibTest.XML
+D:\temp\FsConsoleTest\FsLibTest\bin\Debug\FsLibTest.dll
+D:\temp\FsConsoleTest\FsLibTest\bin\Debug\FsLibTest.pdb
+D:\temp\FsConsoleTest\FsLibTest\obj\Debug\FsLibTest.dll
+D:\temp\FsConsoleTest\FsLibTest\obj\Debug\FsLibTest.pdb
+D:\temp\FsConsoleTest\FsLibTest\obj\Debug\FsLibTest.fsprojResolveAssemblyReference.cache

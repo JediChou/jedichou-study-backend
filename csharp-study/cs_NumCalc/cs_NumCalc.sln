@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeriCalc", "NumeriCalc\NumeriCalc.csproj", "{D25BBFCF-1B85-4663-BCFF-BCBD9CCAC950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeriCalcTest", "NumeriCalcTest\NumeriCalcTest.csproj", "{0BAF065F-53B3-41F2-8526-92FC351C00A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5383763-1974-4E43-B72C-025D3270F2E2}"
+	ProjectSection(SolutionItems) = preProject
+		cs_NumCalc.vsmdi = cs_NumCalc.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = cs_NumCalc.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25BBFCF-1B85-4663-BCFF-BCBD9CCAC950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25BBFCF-1B85-4663-BCFF-BCBD9CCAC950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25BBFCF-1B85-4663-BCFF-BCBD9CCAC950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25BBFCF-1B85-4663-BCFF-BCBD9CCAC950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAF065F-53B3-41F2-8526-92FC351C00A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAF065F-53B3-41F2-8526-92FC351C00A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAF065F-53B3-41F2-8526-92FC351C00A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAF065F-53B3-41F2-8526-92FC351C00A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

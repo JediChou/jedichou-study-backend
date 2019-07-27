@@ -1,0 +1,4 @@
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-RetrieveQueues\bin\Debug\msmq-RetrieveQueues.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-RetrieveQueues\bin\Debug\msmq-RetrieveQueues.pdb
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-RetrieveQueues\obj\x86\Debug\msmq-RetrieveQueues.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-RetrieveQueues\obj\x86\Debug\msmq-RetrieveQueues.pdb

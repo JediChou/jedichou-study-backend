@@ -1,0 +1,14 @@
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\bin\Debug\ServerConnector.exe
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\bin\Debug\ServerConnector.pdb
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\obj\x86\Debug\ServerConnector.exe
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\obj\x86\Debug\ServerConnector.pdb
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\obj\x86\Debug\ServerConnector.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\bin\Debug\NetVerifyLibrary.dll
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\ServerConnector\bin\Debug\NetVerifyLibrary.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\obj\x86\Debug\ServerConnector.exe
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\obj\x86\Debug\ServerConnector.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\bin\Debug\ServerConnector.exe
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\bin\Debug\ServerConnector.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\bin\Debug\NetVerifyLibrary.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\bin\Debug\NetVerifyLibrary.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\ServerConnector\obj\x86\Debug\ServerConnector.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+SET SERVEROUTPUT ON
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Program start here!');
+    DBMS_OUTPUT.PUT_LINE('Delay 10 seconds');
+    COMMIT;
+END;

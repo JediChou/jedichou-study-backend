@@ -1,0 +1,12 @@
+============== basic ==============
+workid name department 
+f3216338 jedi cfa 
+f3219815 ray cfa 
+============== age ==============
+workid name age 
+f3216338 jedi 37 
+f3219815 ray 28 
+============== location ==============
+workid name location 
+f3216338 jedi d13-3f 
+f3219815 ray d13-4f 

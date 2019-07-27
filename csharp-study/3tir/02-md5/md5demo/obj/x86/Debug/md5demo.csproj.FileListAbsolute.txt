@@ -1,0 +1,5 @@
+D:\temp\02-md5\md5demo\bin\Debug\md5demo.exe
+D:\temp\02-md5\md5demo\bin\Debug\md5demo.pdb
+D:\temp\02-md5\md5demo\obj\x86\Debug\md5demo.exe
+D:\temp\02-md5\md5demo\obj\x86\Debug\md5demo.pdb
+D:\temp\02-md5\md5demo\obj\x86\Debug\md5demo.csprojResolveAssemblyReference.cache

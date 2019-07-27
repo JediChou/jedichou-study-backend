@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-0301-ConnectRemoteServer\bin\Release\msmq-0301-ConnectRemoteServer.exe
+D:\msmq-example\msmq-0301-ConnectRemoteServer\bin\Release\msmq-0301-ConnectRemoteServer.pdb
+D:\msmq-example\msmq-0301-ConnectRemoteServer\obj\x86\Release\msmq-0301-ConnectRemoteServer.exe
+D:\msmq-example\msmq-0301-ConnectRemoteServer\obj\x86\Release\msmq-0301-ConnectRemoteServer.pdb

@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-0202-SendComplexMessages\bin\Release\msmq-0202-SendComplexMessages.exe
+D:\msmq-example\msmq-0202-SendComplexMessages\bin\Release\msmq-0202-SendComplexMessages.pdb
+D:\msmq-example\msmq-0202-SendComplexMessages\obj\x86\Release\msmq-0202-SendComplexMessages.exe
+D:\msmq-example\msmq-0202-SendComplexMessages\obj\x86\Release\msmq-0202-SendComplexMessages.pdb

@@ -1,0 +1,8 @@
+D:\temp\cs_NumCalc\NumeriCalcTest\bin\Debug\NumeriCalcTest.dll
+D:\temp\cs_NumCalc\NumeriCalcTest\bin\Debug\NumeriCalcTest.pdb
+D:\temp\cs_NumCalc\NumeriCalcTest\bin\Debug\NumeriCalc.dll
+D:\temp\cs_NumCalc\NumeriCalcTest\bin\Debug\NumeriCalc.pdb
+D:\temp\cs_NumCalc\NumeriCalcTest\obj\Debug\NumeriCalcTest.csprojResolveAssemblyReference.cache
+D:\temp\cs_NumCalc\NumeriCalcTest\obj\Debug\NumeriCalcTest.dll
+D:\temp\cs_NumCalc\NumeriCalcTest\obj\Debug\NumeriCalcTest.pdb
+D:\temp\cs_NumCalc\NumeriCalcTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-insert-demo\bin\Release\msmq-insert-demo.exe
+D:\msmq-example\msmq-insert-demo\bin\Release\msmq-insert-demo.pdb
+D:\msmq-example\msmq-insert-demo\obj\x86\Release\msmq-insert-demo.exe
+D:\msmq-example\msmq-insert-demo\obj\x86\Release\msmq-insert-demo.pdb

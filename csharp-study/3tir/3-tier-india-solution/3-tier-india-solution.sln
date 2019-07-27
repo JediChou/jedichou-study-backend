@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "3-tier-india", "3-tier-india\", "{0DF83C8F-EF67-4308-9143-DD8779CAF876}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{24BF9344-4DDA-41EF-99D3-5137CF86C828}|BAL.dll;{B5DEAB8F-BF36-4012-8CC0-4FE11A8E2FE4}|DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/3-tier-india"
+		Debug.AspNetCompiler.PhysicalPath = "3-tier-india\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\3-tier-india\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/3-tier-india"
+		Release.AspNetCompiler.PhysicalPath = "3-tier-india\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\3-tier-india\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "13414"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BAL\BLL.csproj", "{24BF9344-4DDA-41EF-99D3-5137CF86C828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B5DEAB8F-BF36-4012-8CC0-4FE11A8E2FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF83C8F-EF67-4308-9143-DD8779CAF876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF83C8F-EF67-4308-9143-DD8779CAF876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF83C8F-EF67-4308-9143-DD8779CAF876}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF83C8F-EF67-4308-9143-DD8779CAF876}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{24BF9344-4DDA-41EF-99D3-5137CF86C828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BF9344-4DDA-41EF-99D3-5137CF86C828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BF9344-4DDA-41EF-99D3-5137CF86C828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BF9344-4DDA-41EF-99D3-5137CF86C828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DEAB8F-BF36-4012-8CC0-4FE11A8E2FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DEAB8F-BF36-4012-8CC0-4FE11A8E2FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DEAB8F-BF36-4012-8CC0-4FE11A8E2FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DEAB8F-BF36-4012-8CC0-4FE11A8E2FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

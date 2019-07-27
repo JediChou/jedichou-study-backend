@@ -1,0 +1,32 @@
+Listing 4.6, init.go
+Listing 4.7, use_init.go
+Exercise 4.1, local_scope.go
+Exercise 4.2, global_scope.go
+Exercise 4.3, function_calls_function.go
+Listing 4.8, type_mixing.go
+Listing 4.9, casting.go
+Listing 4.10, random.go
+Listing 4.11, type.go
+Listing 4.12, char.go
+Listing 4.13, presuffix.go
+Listing 4.14, index_in_string.go
+Listing 4.15, count_substring.go
+Listing 4.16, repeat_string.go
+Listing 4.17, toupper_lower.go
+Lab 4.7.8 - Lab_TrimmingAString.go
+Lab 4.7.9 - Lab_SplittingAString.go
+Listing 4.18, strings_splitjoin.go
+Listing 4.19, string_conversion.go
+Listing 4.20, time.go
+Listing 4.21, pointer.go
+Listing 4.22, string_pointer.go
+Listing 4.23, testcrash.go
+Listing 5.1, booleans.go
+Listing 5.2, ifelse.go
+Listing 5.3, string_conversion2.go
+Listing 5.4, switch1.go
+Listing 5.5, switch2.go
+Listing 5.6, for1.go
+Exercise 5.3, undefined.go
+Listing 5.7, for_string.go
+Listing 5.8, for2.go

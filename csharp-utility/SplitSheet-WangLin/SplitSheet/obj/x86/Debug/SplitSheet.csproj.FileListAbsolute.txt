@@ -1,0 +1,11 @@
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\bin\Debug\SplitSheet.exe
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\bin\Debug\SplitSheet.pdb
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\bin\Debug\NPOI.dll
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\bin\Debug\NPOI.xml
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\obj\x86\Debug\SplitSheet.frmMain.resources
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\obj\x86\Debug\SplitSheet.Properties.Resources.resources
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\obj\x86\Debug\SplitSheet.csproj.GenerateResource.Cache
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\obj\x86\Debug\SplitSheet.exe
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\obj\x86\Debug\SplitSheet.pdb
+D:\WorkSpaces\Legal\SplitSheet\SplitSheet\obj\x86\Debug\SplitSheet.csprojResolveAssemblyReference.cache

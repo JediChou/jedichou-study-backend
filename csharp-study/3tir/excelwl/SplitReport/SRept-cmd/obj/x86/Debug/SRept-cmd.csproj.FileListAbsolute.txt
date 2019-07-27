@@ -1,0 +1,7 @@
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\bin\Debug\SRept-cmd.exe
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\bin\Debug\SRept-cmd.pdb
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\obj\x86\Debug\SRept-cmd.exe
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\obj\x86\Debug\SRept-cmd.pdb
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\bin\Debug\Ionic.Zip.dll
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\bin\Debug\NPOI.dll
+D:\temp\3tir\excelwl\SplitReport\SRept-cmd\obj\x86\Debug\SRept-cmd.csprojResolveAssemblyReference.cache

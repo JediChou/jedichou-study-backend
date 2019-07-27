@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-0302-SendMQBySelfObject\bin\Release\msmq-0302-SendMQBySelfObject.exe
+D:\msmq-example\msmq-0302-SendMQBySelfObject\bin\Release\msmq-0302-SendMQBySelfObject.pdb
+D:\msmq-example\msmq-0302-SendMQBySelfObject\obj\x86\Release\msmq-0302-SendMQBySelfObject.exe
+D:\msmq-example\msmq-0302-SendMQBySelfObject\obj\x86\Release\msmq-0302-SendMQBySelfObject.pdb

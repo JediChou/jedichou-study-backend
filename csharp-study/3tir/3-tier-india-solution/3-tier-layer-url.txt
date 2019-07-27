@@ -1,0 +1,1 @@
+http://www.dotnetfunda.com/articles/show/2708/3-tier-architecture-in-aspnet-a-complete-article

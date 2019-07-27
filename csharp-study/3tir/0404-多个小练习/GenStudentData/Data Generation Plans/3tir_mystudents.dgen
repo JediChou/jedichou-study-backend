@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="1.1" DspName="Microsoft.Data.Schema.Sql.Sql100DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False">
+	<Header>
+		<CustomData Category="ModelCapability">
+			<Metadata Name="ModelCapability" Value="Default" />
+		</CustomData>
+	</Header>
+	<Model>
+		<Annotation Type="DataGenerationConfigAnnotation">
+			<Property Name="PlanVersion" Value="2.0" />
+			<Property Name="ValidateTarget" Value="True" />
+		</Annotation>
+		<Annotation Type="DataSinkAnnotation">
+			<Property Name="DataSinkExtensionXml" Value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;ExtensionHandle AssemblyName=&quot;Microsoft.Data.Schema.Generators.Sql, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&quot; TypeName=&quot;Microsoft.Data.Schema.Generators.Sql.Sinks.SqlBulkClientSink&quot; /&gt;" />
+			<Property Name="ConfigurationName" Value="DefaultDataSink" />
+		</Annotation>
+		<Element Type="ISql100DatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+		</Element>
+	</Model>
+</DataSchemaModel>

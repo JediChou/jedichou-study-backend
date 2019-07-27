@@ -1,0 +1,19 @@
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\pingWin.exe
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\pingWin.pdb
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\obj\x86\Debug\pingWin.Form1.resources
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\obj\x86\Debug\pingWin.Properties.Resources.resources
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\obj\x86\Debug\pingWin.csproj.GenerateResource.Cache
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\obj\x86\Debug\pingWin.exe
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\obj\x86\Debug\pingWin.pdb
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\obj\x86\Debug\pingWin.csprojResolveAssemblyReference.cache
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\pingWin.exe.config
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\EntityFramework.dll
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\System.Data.SQLite.dll
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\System.Data.SQLite.EF6.dll
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\System.Data.SQLite.Linq.dll
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\EntityFramework.xml
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace 201603\CFA-Monitor-0.01\pingWin\bin\Debug\System.Data.SQLite.xml
+D:\temp\pingWin\obj\x86\Debug\pingWin.exe
+D:\temp\pingWin\obj\x86\Debug\pingWin.pdb

@@ -1,0 +1,9 @@
+D:\temp\PlugIns\Plug\bin\Debug\Plug.dll
+D:\temp\PlugIns\Plug\bin\Debug\Plug.pdb
+D:\temp\PlugIns\Plug\bin\Debug\PlugInterface.dll
+D:\temp\PlugIns\Plug\bin\Debug\PlugInterface.pdb
+D:\temp\DynamicCall\debug-bin\Plug.dll
+D:\temp\DynamicCall\debug-bin\Plug.pdb
+D:\temp\PlugIns\Plug\obj\Debug\Plug.csprojResolveAssemblyReference.cache
+D:\temp\PlugIns\Plug\obj\Debug\Plug.dll
+D:\temp\PlugIns\Plug\obj\Debug\Plug.pdb

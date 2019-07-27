@@ -1,0 +1,5 @@
+D:\temp\05-ExcelImport\ExcelImport\bin\Debug\ExcelImport.exe
+D:\temp\05-ExcelImport\ExcelImport\bin\Debug\ExcelImport.pdb
+D:\temp\05-ExcelImport\ExcelImport\obj\x86\Debug\ExcelImport.exe
+D:\temp\05-ExcelImport\ExcelImport\obj\x86\Debug\ExcelImport.pdb
+D:\temp\05-ExcelImport\ExcelImport\obj\x86\Debug\ExcelImport.csprojResolveAssemblyReference.cache

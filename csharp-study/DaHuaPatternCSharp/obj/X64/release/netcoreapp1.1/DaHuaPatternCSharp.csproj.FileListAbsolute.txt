@@ -1,0 +1,8 @@
+D:\temp\DaHuaPatternCSharp\bin\X64\release\netcoreapp1.1\DaHuaPatternCSharp.deps.json
+D:\temp\DaHuaPatternCSharp\bin\X64\release\netcoreapp1.1\DaHuaPatternCSharp.runtimeconfig.json
+D:\temp\DaHuaPatternCSharp\bin\X64\release\netcoreapp1.1\DaHuaPatternCSharp.runtimeconfig.dev.json
+D:\temp\DaHuaPatternCSharp\bin\X64\release\netcoreapp1.1\DaHuaPatternCSharp.dll
+D:\temp\DaHuaPatternCSharp\bin\X64\release\netcoreapp1.1\DaHuaPatternCSharp.pdb
+D:\temp\DaHuaPatternCSharp\obj\X64\release\netcoreapp1.1\DaHuaPatternCSharp.AssemblyInfo.cs
+D:\temp\DaHuaPatternCSharp\obj\X64\release\netcoreapp1.1\DaHuaPatternCSharp.dll
+D:\temp\DaHuaPatternCSharp\obj\X64\release\netcoreapp1.1\DaHuaPatternCSharp.pdb

@@ -1,0 +1,4 @@
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-insert-demo\bin\Debug\msmq-insert-demo.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-insert-demo\bin\Debug\msmq-insert-demo.pdb
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-insert-demo\obj\x86\Debug\msmq-insert-demo.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-insert-demo\obj\x86\Debug\msmq-insert-demo.pdb

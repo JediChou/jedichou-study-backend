@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-create\bin\Release\msmq-create.exe
+D:\msmq-example\msmq-create\bin\Release\msmq-create.pdb
+D:\msmq-example\msmq-create\obj\x86\Release\msmq-create.exe
+D:\msmq-example\msmq-create\obj\x86\Release\msmq-create.pdb

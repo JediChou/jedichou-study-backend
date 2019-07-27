@@ -1,0 +1,69 @@
+@{
+    ViewBag.Title = "Index";
+}
+
+<!doctype html>
+<html>
+    <head>
+        <title>Get Json data demo for LBPE with ASP.NET MVC</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="@Url.Content("~/Scripts/easyui/themes/gray/easyui.css")"/>
+        <link rel="stylesheet" type="text/css" href="@Url.Content("~/Scripts/easyui/themes/icon.css")"/>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.min.1.8.3.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.easyui.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/easyui/locale/easyui-lang-zh_CN.js")"></script>
+    </head>
+    <body>
+        <table id="box"></table>
+        <div style="padding: 5px">
+            <table border="1">
+                <thead>
+                    <th>name</th>
+                    <th>mail</th>
+                    <th>date</th>
+                    <th>age</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id="tname"></span></td>
+                        <td><span id="tmail"></span></td>
+                        <td><span id="tdate"></span></td>
+                        <td><span id="tage"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript">
+            $('#box').datagrid({
+                title: 'Users',
+                url: '@Url.Action("GetTempResult")',
+                columns: [[
+                    { field: "username", title: "User" },
+                    { field: "email", title: "Email" },
+                    { field: "date", title: "date" }
+                ]],
+                singleSelect: true,
+                pagination: true,
+                pageSize: 5,
+                pageList: [5, 10, 15],
+                pagePosition: 'bottom',
+
+                onSelect: function(rowIndex, rowData) {
+                    // debug command
+                    console.log(rowIndex);
+                    console.log(rowData.username);
+                    // asign value to table cells
+                    $('#tname').html(rowData.username);
+                    $('#tmail').html(rowData.email);
+                    $('#tdate').html(rowData.date);
+                    $('#tage').html(rowData.age);
+                },
+            });
+
+            window.onresize = function() {
+                $('#box').datagrid('resize');
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+D:\WorkSpaces\lab\3-tier-india-solution\DAL\bin\Debug\DAL.dll
+D:\WorkSpaces\lab\3-tier-india-solution\DAL\bin\Debug\DAL.pdb
+D:\WorkSpaces\lab\3-tier-india-solution\DAL\obj\Debug\DAL.dll
+D:\WorkSpaces\lab\3-tier-india-solution\DAL\obj\Debug\DAL.pdb

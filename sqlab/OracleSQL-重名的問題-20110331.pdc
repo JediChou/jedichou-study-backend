@@ -1,0 +1,21 @@
+-- OracleSQL-重名的問題-20110331
+-- Date: 2011-3-31 12:06
+-- Author: Rain Jiang (江雨雷)
+
+---------------------------------
+-- Precondition
+-- DESC EMP
+---------------------------------
+-- Name   Type         Nullable 
+-- DEP    VARCHAR2(50) Y                         
+-- NAME   VARCHAR2(50) Y                         
+-- SAL    NUMBER(4)    Y                         
+-- WORKID CHAR(8)      Y 
+---------------------------------
+
+SELECT workid, name
+  FROM emp
+ WHERE name IN
+       (SELECT name
+          FROM (select name, count(name) AS count_id FROM emp GROUP BY name)
+         WHERE count_id > 1);

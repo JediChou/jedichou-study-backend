@@ -1,0 +1,12 @@
+D:\temp\01-sqlhelper\01-sqlhelper\bin\Debug\01-sqlhelper.exe.config
+D:\temp\01-sqlhelper\01-sqlhelper\bin\Debug\01-sqlhelper.exe
+D:\temp\01-sqlhelper\01-sqlhelper\bin\Debug\01-sqlhelper.pdb
+D:\temp\01-sqlhelper\01-sqlhelper\obj\x86\Debug\demo.Form1.resources
+D:\temp\01-sqlhelper\01-sqlhelper\obj\x86\Debug\demo.Properties.Resources.resources
+D:\temp\01-sqlhelper\01-sqlhelper\obj\x86\Debug\01-sqlhelper.csproj.GenerateResource.Cache
+D:\temp\01-sqlhelper\01-sqlhelper\obj\x86\Debug\01-sqlhelper.exe
+D:\temp\01-sqlhelper\01-sqlhelper\obj\x86\Debug\01-sqlhelper.pdb
+D:\temp\01-sqlhelper\01-sqlhelper\obj\x86\Debug\01-sqlhelper.csprojResolveAssemblyReference.cache
+D:\temp\3tir\01-sqlhelper\01-sqlhelper\bin\Debug\01-sqlhelper.exe.config
+D:\temp\3tir\01-sqlhelper\01-sqlhelper\obj\x86\Debug\01-sqlhelper.exe
+D:\temp\3tir\01-sqlhelper\01-sqlhelper\obj\x86\Debug\01-sqlhelper.pdb

@@ -1,0 +1,7 @@
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\bin\Debug\ADO.NETLibTest.dll
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\bin\Debug\ADO.NETLibTest.pdb
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\bin\Debug\ADO.NETLib.dll
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\bin\Debug\ADO.NETLib.pdb
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\obj\Debug\ADO.NETLibTest.csprojResolveAssemblyReference.cache
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\obj\Debug\ADO.NETLibTest.dll
+D:\workspace\github\jedichou-study-csharp\csharp-study\ADO.NET-Study-2017\ADO.NETLibTest\obj\Debug\ADO.NETLibTest.pdb

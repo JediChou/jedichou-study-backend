@@ -1,0 +1,5 @@
+D:\temp\lab\FSharpLab\FsTutorial\bin\Debug\FsTutorial.XML
+D:\temp\lab\FSharpLab\FsTutorial\bin\Debug\FsTutorial.exe
+D:\temp\lab\FSharpLab\FsTutorial\bin\Debug\FsTutorial.pdb
+D:\temp\lab\FSharpLab\FsTutorial\obj\x86\Debug\FsTutorial.exe
+D:\temp\lab\FSharpLab\FsTutorial\obj\x86\Debug\FsTutorial.pdb

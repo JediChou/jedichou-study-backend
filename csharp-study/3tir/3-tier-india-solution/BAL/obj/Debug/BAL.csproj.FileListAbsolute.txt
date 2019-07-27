@@ -1,0 +1,7 @@
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\bin\Debug\BAL.dll
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\bin\Debug\BAL.pdb
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\bin\Debug\DAL.dll
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\bin\Debug\DAL.pdb
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\obj\Debug\BAL.dll
+D:\WorkSpaces\lab\3-tier-india-solution\BAL\obj\Debug\BAL.pdb

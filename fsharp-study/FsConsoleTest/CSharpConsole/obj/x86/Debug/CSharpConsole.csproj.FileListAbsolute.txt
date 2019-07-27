@@ -1,0 +1,8 @@
+D:\temp\FsConsoleTest\CSharpConsole\obj\x86\Debug\CSharpConsole.csprojResolveAssemblyReference.cache
+D:\temp\FsConsoleTest\CSharpConsole\bin\Debug\CSharpConsole.exe
+D:\temp\FsConsoleTest\CSharpConsole\bin\Debug\CSharpConsole.pdb
+D:\temp\FsConsoleTest\CSharpConsole\bin\Debug\FsLibTest.dll
+D:\temp\FsConsoleTest\CSharpConsole\bin\Debug\FsLibTest.pdb
+D:\temp\FsConsoleTest\CSharpConsole\bin\Debug\FsLibTest.xml
+D:\temp\FsConsoleTest\CSharpConsole\obj\x86\Debug\CSharpConsole.exe
+D:\temp\FsConsoleTest\CSharpConsole\obj\x86\Debug\CSharpConsole.pdb

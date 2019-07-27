@@ -1,0 +1,10 @@
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\bin\Debug\NetVerifyLibrary.dll
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\bin\Debug\NetVerifyLibrary.pdb
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\obj\Debug\NetVerifyLibrary.dll
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\obj\Debug\NetVerifyLibrary.pdb
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\obj\Debug\NetVerifyLibrary.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\bin\Debug\NetVerifyLibrary.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\bin\Debug\NetVerifyLibrary.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\obj\Debug\NetVerifyLibrary.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\obj\Debug\NetVerifyLibrary.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\obj\Debug\NetVerifyLibrary.pdb

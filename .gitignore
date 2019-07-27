@@ -1,0 +1,25 @@
+# Ignore File Type
+*.exe
+*.obj
+*.un~
+*.pdb
+*.cache
+*.trx
+
+# Ignore Directory
+*/bin
+*/bin/Debug
+*/bin/Release
+*/obj/Debug
+
+# Ignore file of ADO.NET Study 
+csharp-study/ADO.NET-Study-2017/ADO.NETLib/bin/Debug/ADO.NETLib.dll
+csharp-study/ADO.NET-Study-2017/ADO.NETLib/obj/Debug/ADO.NETLib.dll
+csharp-study/ADO.NET-Study-2017/ADO.NETLibTest/bin/Debug/ADO.NETLib.dll
+csharp-study/ADO.NET-Study-2017/ADO.NETLibTest/bin/Debug/ADO.NETLibTest.dll
+csharp-study/ADO.NET-Study-2017/ADO.NETLibTest/obj/Debug/ADO.NETLibTest.dll
+csharp-utility/CodeSnippetLab/Jedi.CS.Practice/bin/Debug/Jedi.CS.Practice.dll
+csharp-utility/CodeSnippetLab/Jedi.CS.Practice/obj/Debug/Jedi.CS.Practice.dll
+csharp-utility/CodeSnippetLab/Jedi.CS.PracticeTest/bin/Debug/Jedi.CS.Practice.dll
+csharp-utility/CodeSnippetLab/Jedi.CS.PracticeTest/bin/Debug/Jedi.CS.PracticeTest.dll
+csharp-utility/CodeSnippetLab/Jedi.CS.PracticeTest/obj/Debug/Jedi.CS.PracticeTest.dll

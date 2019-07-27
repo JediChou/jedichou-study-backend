@@ -1,0 +1,9 @@
+D:\temp\lab\FSharpLab\FSharpLab\bin\Debug\FSharpLab.XML
+D:\temp\lab\FSharpLab\FSharpLab\bin\Debug\FSharpLab.exe
+D:\temp\lab\FSharpLab\FSharpLab\bin\Debug\FSharpLab.pdb
+D:\temp\lab\FSharpLab\FSharpLab\obj\x86\Debug\FSharpLab.exe
+D:\temp\lab\FSharpLab\FSharpLab\obj\x86\Debug\FSharpLab.pdb
+D:\temp\lab\FSharpLab\FSharpLab\obj\x86\Debug\FSharpLab.fsprojResolveAssemblyReference.cache
+D:\temp\lab\FSharpLab\FSharpLab\bin\Debug\FsLib.dll
+D:\temp\lab\FSharpLab\FSharpLab\bin\Debug\FsLib.pdb
+D:\temp\lab\FSharpLab\FSharpLab\bin\Debug\FsLib.xml

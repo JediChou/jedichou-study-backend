@@ -1,0 +1,8 @@
+D:\temp\ADO.NET-Study-2017\ConsoleApplication1\bin\Debug\ADONetStudy.exe
+D:\temp\ADO.NET-Study-2017\ConsoleApplication1\bin\Debug\ADONetStudy.pdb
+D:\temp\ADO.NET-Study-2017\ConsoleApplication1\obj\x86\Debug\ADONetStudy.exe
+D:\temp\ADO.NET-Study-2017\ConsoleApplication1\obj\x86\Debug\ADONetStudy.pdb
+D:\temp\ADO.NET-Study-2017\ADO.NET4-FromNoviceToMaster\obj\x86\Debug\ADONetStudy.exe
+D:\temp\ADO.NET-Study-2017\ADO.NET4-FromNoviceToMaster\obj\x86\Debug\ADONetStudy.pdb
+D:\temp\ADO.NET-Study-2017\ADO.NET4-FromNoviceToMaster\bin\Debug\ADONetStudy.exe
+D:\temp\ADO.NET-Study-2017\ADO.NET4-FromNoviceToMaster\bin\Debug\ADONetStudy.pdb

@@ -1,0 +1,8 @@
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\bin\Release\NetVerifyLibrary.dll
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\bin\Release\NetVerifyLibrary.pdb
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\obj\Release\NetVerifyLibrary.dll
+D:\WorkSpaces\MyLab\vsproject\ServerConnector\NetVerifyLibrary\obj\Release\NetVerifyLibrary.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\bin\Release\NetVerifyLibrary.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\bin\Release\NetVerifyLibrary.pdb
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\obj\Release\NetVerifyLibrary.dll
+D:\WorkSpaces\MySrc\workspace\vsproject\ServerConnector\NetVerifyLibrary\obj\Release\NetVerifyLibrary.pdb

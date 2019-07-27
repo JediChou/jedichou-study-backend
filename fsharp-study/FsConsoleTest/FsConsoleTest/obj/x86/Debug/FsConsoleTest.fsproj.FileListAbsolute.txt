@@ -1,0 +1,6 @@
+D:\temp\FsConsoleTest\FsConsoleTest\bin\Debug\FsConsoleTest.XML
+D:\temp\FsConsoleTest\FsConsoleTest\bin\Debug\FsConsoleTest.exe
+D:\temp\FsConsoleTest\FsConsoleTest\bin\Debug\FsConsoleTest.pdb
+D:\temp\FsConsoleTest\FsConsoleTest\obj\x86\Debug\FsConsoleTest.fsprojResolveAssemblyReference.cache
+D:\temp\FsConsoleTest\FsConsoleTest\obj\x86\Debug\FsConsoleTest.exe
+D:\temp\FsConsoleTest\FsConsoleTest\obj\x86\Debug\FsConsoleTest.pdb

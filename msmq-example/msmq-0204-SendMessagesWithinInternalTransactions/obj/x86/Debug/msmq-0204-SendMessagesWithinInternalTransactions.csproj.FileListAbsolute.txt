@@ -1,0 +1,6 @@
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\bin\Debug\msmq-0204-SendMessagesWithinInternalTransactions.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\bin\Debug\msmq-0204-SendMessagesWithinInternalTransactions.pdb
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\obj\x86\Debug\msmq-0204-SendMessagesWithinInternalTransactions.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\obj\x86\Debug\msmq-0204-SendMessagesWithinInternalTransactions.pdb
+D:\workspace\github\jedichou-study-csharp\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\obj\x86\Debug\msmq-0204-SendMessagesWithinInternalTransactions.exe
+D:\workspace\github\jedichou-study-csharp\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\obj\x86\Debug\msmq-0204-SendMessagesWithinInternalTransactions.pdb

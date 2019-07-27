@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Hello World</Title>
+      <Author>Jedi</Author>
+      <Description>输出HelloWorld范例</Description>
+      <Shortcut>中文的内容</Shortcut>
+	  <Shortcut>ray</Shortcut>
+    </Header>
+	
+    <Snippet>
+
+		<Declarations>
+			<Literal>
+				<ID>SqlConnString</ID>
+				<ToolTip>Replace with a SQL connection string.</ToolTip>
+				<Default>"sqlconnstr"</Default>
+			</Literal>
+		</Declarations>
+		
+		<Code Language="csharp">
+			<![CDATA[Console.WriteLine("Hello, World!");
+				if ($SqlConnString$ != null)
+					Console.WriteLine("something wrong");
+			]]>
+		</Code>
+    
+	</Snippet>
+  </CodeSnippet>
+</CodeSnippets>

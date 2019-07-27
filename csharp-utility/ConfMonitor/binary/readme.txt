@@ -1,0 +1,1 @@
+Pls install it as windows services

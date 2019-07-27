@@ -1,0 +1,4 @@
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0301-xmldocumentSend\bin\Debug\msmq-0301-xmldocumentSend.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0301-xmldocumentSend\bin\Debug\msmq-0301-xmldocumentSend.pdb
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0301-xmldocumentSend\obj\x86\Debug\msmq-0301-xmldocumentSend.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0301-xmldocumentSend\obj\x86\Debug\msmq-0301-xmldocumentSend.pdb

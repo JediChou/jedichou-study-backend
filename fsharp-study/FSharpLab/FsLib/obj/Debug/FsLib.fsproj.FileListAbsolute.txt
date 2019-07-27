@@ -1,0 +1,6 @@
+D:\temp\lab\FSharpLab\FsLib\bin\Debug\FsLib.XML
+D:\temp\lab\FSharpLab\FsLib\bin\Debug\FsLib.dll
+D:\temp\lab\FSharpLab\FsLib\bin\Debug\FsLib.pdb
+D:\temp\lab\FSharpLab\FsLib\obj\Debug\FsLib.dll
+D:\temp\lab\FSharpLab\FsLib\obj\Debug\FsLib.pdb
+D:\temp\lab\FSharpLab\FsLib\obj\Debug\FsLib.fsprojResolveAssemblyReference.cache

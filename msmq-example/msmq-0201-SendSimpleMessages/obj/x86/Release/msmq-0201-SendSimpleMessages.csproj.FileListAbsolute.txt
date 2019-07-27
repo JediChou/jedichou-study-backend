@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-0201-SendSimpleMessages\bin\Release\msmq-0201-SendSimpleMessages.exe
+D:\msmq-example\msmq-0201-SendSimpleMessages\bin\Release\msmq-0201-SendSimpleMessages.pdb
+D:\msmq-example\msmq-0201-SendSimpleMessages\obj\x86\Release\msmq-0201-SendSimpleMessages.exe
+D:\msmq-example\msmq-0201-SendSimpleMessages\obj\x86\Release\msmq-0201-SendSimpleMessages.pdb

@@ -1,0 +1,8 @@
+D:\temp\01-sqlhelper\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\temp\01-sqlhelper\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\temp\01-sqlhelper\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\temp\01-sqlhelper\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\temp\01-sqlhelper\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\temp\3tir\01-sqlhelper\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\temp\3tir\01-sqlhelper\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\temp\3tir\01-sqlhelper\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

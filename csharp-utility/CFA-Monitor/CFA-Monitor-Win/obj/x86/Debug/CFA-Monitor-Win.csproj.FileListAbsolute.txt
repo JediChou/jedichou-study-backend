@@ -1,0 +1,7 @@
+D:\temp\CFA-Monitor\CFA-Monitor-Win\bin\Debug\mc-win.exe
+D:\temp\CFA-Monitor\CFA-Monitor-Win\bin\Debug\mc-win.pdb
+D:\temp\CFA-Monitor\CFA-Monitor-Win\obj\x86\Debug\CFA_Monitor_Win.Properties.Resources.resources
+D:\temp\CFA-Monitor\CFA-Monitor-Win\obj\x86\Debug\CFA-Monitor-Win.csproj.GenerateResource.Cache
+D:\temp\CFA-Monitor\CFA-Monitor-Win\obj\x86\Debug\mc-win.exe
+D:\temp\CFA-Monitor\CFA-Monitor-Win\obj\x86\Debug\mc-win.pdb
+D:\temp\CFA-Monitor\CFA-Monitor-Win\obj\x86\Debug\CFA-Monitor-Win.csprojResolveAssemblyReference.cache

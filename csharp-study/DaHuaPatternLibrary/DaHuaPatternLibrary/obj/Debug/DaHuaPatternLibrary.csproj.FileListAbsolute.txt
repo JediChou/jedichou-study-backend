@@ -1,0 +1,4 @@
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternLibrary\bin\Debug\DaHuaPatternLibrary.dll
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternLibrary\bin\Debug\DaHuaPatternLibrary.pdb
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternLibrary\obj\Debug\DaHuaPatternLibrary.dll
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternLibrary\obj\Debug\DaHuaPatternLibrary.pdb

@@ -1,0 +1,256 @@
+
+Before
+TCP    0.0.0.0:80             MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:135            MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:443            MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:445            MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:902            MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:912            MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1027           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1028           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1031           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1044           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1064           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1068           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:1433           MIS-F3216338:0         LISTENING
+TCP    0.0.0.0:8080           MIS-F3216338:0         LISTENING
+TCP    10.130.2.211:139       MIS-F3216338:0         LISTENING
+TCP    10.130.2.211:20725     10.191.131.45:3128     CLOSE_WAIT
+TCP    10.130.2.211:21166     10.191.131.45:3128     ESTABLISHED
+TCP    10.130.2.211:21216     CFA-33149:3000         ESTABLISHED
+TCP    10.130.2.211:21282     CFA-33149:3000         ESTABLISHED
+TCP    10.130.2.211:22052     10.191.131.45:3128     ESTABLISHED
+TCP    10.130.2.211:23074     10.191.131.45:3128     ESTABLISHED
+TCP    10.130.2.211:23126     10.191.131.45:3128     TIME_WAIT
+TCP    10.130.2.211:23128     10.191.131.45:3128     TIME_WAIT
+
+Start netmeeting
+ TCP    0.0.0.0:135            MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:443            MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:445            MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:902            MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:912            MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1027           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1028           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1031           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1044           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1064           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1068           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1433           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1503           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:1720           MIS-F3216338:0         LISTENING
+ TCP    0.0.0.0:8080           MIS-F3216338:0         LISTENING
+ TCP    10.130.2.211:20725     10.191.131.45:3128     CLOSE_WAIT
+ TCP    10.130.2.211:21166     10.191.131.45:3128     ESTABLISHED
+ TCP    10.130.2.211:21216     CFA-33149:3000         ESTABLISHED
+ TCP    10.130.2.211:21282     CFA-33149:3000         ESTABLISHED
+ TCP    10.130.2.211:22052     10.191.131.45:3128     ESTABLISHED
+ TCP    10.130.2.211:23074     10.191.131.45:3128     ESTABLISHED
+ TCP    10.130.2.211:23424     10.191.131.45:3128     ESTABLISHED
+ TCP    10.130.2.211:23481     183.58.18.34:http      SYN_SENT
+ TCP    10.130.2.211:40107     CFA-33149:3000         ESTABLISHED
+ TCP    10.130.2.211:40119     CFA-33149:3000         ESTABLISHED
+ TCP    10.130.2.211:40121     CFA-33149:3000         ESTABLISHED
+ TCP    10.130.2.211:55798     LSLH02:5061            ESTABLISHED
+ TCP    [fe80::1061:69bf:931b:2049%11]:80  admin-2222554:61059    ESTABLISHED
+
+
+Connected with JinYong
+C:\Users\F3216338>netstat -a
+
+使用中連線
+
+  協定   本機位址               外部位址               狀態
+  TCP    0.0.0.0:80             MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:135            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:443            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:445            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:902            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:912            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1027           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1028           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1031           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1044           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1064           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1068           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1433           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1503           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1720           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:8080           MIS-F3216338:0         LISTENING
+  TCP    10.130.2.211:139       MIS-F3216338:0         LISTENING
+  TCP    10.130.2.211:20725     10.191.131.45:3128     CLOSE_WAIT
+  TCP    10.130.2.211:21216     CFA-33149:3000         ESTABLISHED
+  TCP    10.130.2.211:21282     CFA-33149:3000         ESTABLISHED
+  TCP    10.130.2.211:22052     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23074     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23578     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23582     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23583     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23584     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23586     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23587     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23588     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23594     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23597     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23599     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23600     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23604     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23606     10.191.131.45:3128     ESTABLISHED
+  TCP    10.130.2.211:23815     WIN-NPJJQL783NR:1720   ESTABLISHED
+  TCP    10.130.2.211:23816     WIN-NPJJQL783NR:57295  ESTABLISHED
+  TCP    10.130.2.211:23818     WIN-NPJJQL783NR:1503   ESTABLISHED
+  TCP    10.130.2.211:23820     WIN-NPJJQL783NR:1503   ESTABLISHED
+  TCP    10.130.2.211:23821     WIN-NPJJQL783NR:1503   ESTABLISHED
+  TCP    10.130.2.211:23842     171.107.86.38:http     SYN_SENT
+  TCP    10.130.2.211:40107     CFA-33149:3000         ESTABLISHED
+  TCP    10.130.2.211:40119     CFA-33149:3000         ESTABLISHED
+  TCP    10.130.2.211:40121     CFA-33149:3000         ESTABLISHED
+  TCP    10.130.2.211:55798     LSLH02:5061            ESTABLISHED
+  TCP    127.0.0.1:443          MIS-F3216338:20549     ESTABLISHED
+  TCP    127.0.0.1:443          MIS-F3216338:22328     ESTABLISHED
+  TCP    127.0.0.1:1025         MIS-F3216338:1026      ESTABLISHED
+  TCP    127.0.0.1:1026         MIS-F3216338:1025      ESTABLISHED
+  TCP    127.0.0.1:1029         MIS-F3216338:1030      ESTABLISHED
+  TCP    127.0.0.1:1030         MIS-F3216338:1029      ESTABLISHED
+  TCP    127.0.0.1:1434         MIS-F3216338:0         LISTENING
+  TCP    127.0.0.1:8307         MIS-F3216338:0         LISTENING
+  TCP    127.0.0.1:20542        MIS-F3216338:20543     ESTABLISHED
+  TCP    127.0.0.1:20543        MIS-F3216338:20542     ESTABLISHED
+  TCP    127.0.0.1:20549        MIS-F3216338:https     ESTABLISHED
+  TCP    127.0.0.1:20963        MIS-F3216338:20964     ESTABLISHED
+  TCP    127.0.0.1:20964        MIS-F3216338:20963     ESTABLISHED
+  TCP    127.0.0.1:22328        MIS-F3216338:https     ESTABLISHED
+  TCP    127.0.0.1:57799        MIS-F3216338:57800     ESTABLISHED
+  TCP    127.0.0.1:57800        MIS-F3216338:57799     ESTABLISHED
+  TCP    192.168.137.1:139      MIS-F3216338:0         LISTENING
+  TCP    192.168.161.1:139      MIS-F3216338:0         LISTENING
+  TCP    [::]:80                MIS-F3216338:0         LISTENING
+  TCP    [::]:135               MIS-F3216338:0         LISTENING
+  TCP    [::]:443               MIS-F3216338:0         LISTENING
+  TCP    [::]:445               MIS-F3216338:0         LISTENING
+  TCP    [::]:1027              MIS-F3216338:0         LISTENING
+  TCP    [::]:1028              MIS-F3216338:0         LISTENING
+  TCP    [::]:1031              MIS-F3216338:0         LISTENING
+  TCP    [::]:1044              MIS-F3216338:0         LISTENING
+  TCP    [::]:1064              MIS-F3216338:0         LISTENING
+  TCP    [::]:1068              MIS-F3216338:0         LISTENING
+  TCP    [::]:1433              MIS-F3216338:0         LISTENING
+  TCP    [::]:8080              MIS-F3216338:0         LISTENING
+  TCP    [::1]:1434             MIS-F3216338:0         LISTENING
+  TCP    [::1]:8307             MIS-F3216338:0         LISTENING
+  TCP    [::1]:8307             MIS-F3216338:20550     ESTABLISHED
+  TCP    [::1]:20550            MIS-F3216338:8307      ESTABLISHED
+  UDP    0.0.0.0:123            *:*
+  UDP    0.0.0.0:500            *:*
+  UDP    0.0.0.0:4500           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:53524          *:*
+  UDP    10.130.2.211:137       *:*
+  UDP    10.130.2.211:138       *:*
+  UDP    10.130.2.211:1900      *:*
+  UDP    10.130.2.211:52596     *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:49802        *:*
+  UDP    127.0.0.1:52209        *:*
+  UDP    127.0.0.1:52598        *:*
+  UDP    127.0.0.1:54138        *:*
+  UDP    127.0.0.1:57673        *:*
+  UDP    192.168.137.1:137      *:*
+  UDP    192.168.137.1:138      *:*
+  UDP    192.168.137.1:1900     *:*
+  UDP    192.168.137.1:52595    *:*
+  UDP    192.168.161.1:137      *:*
+  UDP    192.168.161.1:138      *:*
+  UDP    192.168.161.1:1900     *:*
+  UDP    192.168.161.1:52597    *:*
+  UDP    [::]:123               *:*
+  UDP    [::]:500               *:*
+  UDP    [::]:4500              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:52594            *:*
+  UDP    [fe80::e7:3c19:18d0:2ef%22]:1900  *:*
+  UDP    [fe80::e7:3c19:18d0:2ef%22]:52591  *:*
+  UDP    [fe80::1061:69bf:931b:2049%11]:546  *:*
+  UDP    [fe80::1061:69bf:931b:2049%11]:1900  *:*
+  UDP    [fe80::1061:69bf:931b:2049%11]:52592  *:*
+  UDP    [fe80::d0e7:b73d:43a7:6dab%20]:1900  *:*
+  UDP    [fe80::d0e7:b73d:43a7:6dab%20]:52593  *:*
+
+Digl out
+  TCP    0.0.0.0:80             MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:135            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:443            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:445            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:902            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:912            MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1027           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1028           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1031           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1044           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1064           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1068           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1433           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1503           MIS-F3216338:0         LISTENING
+  TCP    0.0.0.0:1720           MIS-F3216338:0         LISTENING
+  TCP    10.130.2.211:139       MIS-F3216338:0         LISTENING
+  TCP    10.130.2.211:25246     113.107.57.42:http     SYN_SENT
+  TCP    10.130.2.211:55798     LSLH02:5061            TIME_WAIT
+  TCP    127.0.0.1:1025         MIS-F3216338:1026      ESTABLISHED
+  TCP    127.0.0.1:1026         MIS-F3216338:1025      ESTABLISHED
+  TCP    127.0.0.1:1029         MIS-F3216338:1030      ESTABLISHED
+  TCP    127.0.0.1:1030         MIS-F3216338:1029      ESTABLISHED
+  TCP    127.0.0.1:1434         MIS-F3216338:0         LISTENING
+  TCP    127.0.0.1:8307         MIS-F3216338:0         LISTENING
+  TCP    127.0.0.1:57799        MIS-F3216338:57800     ESTABLISHED
+  TCP    127.0.0.1:57800        MIS-F3216338:57799     ESTABLISHED
+  TCP    192.168.137.1:139      MIS-F3216338:0         LISTENING
+  TCP    192.168.161.1:139      MIS-F3216338:0         LISTENING
+  TCP    [::]:80                MIS-F3216338:0         LISTENING
+  TCP    [::]:135               MIS-F3216338:0         LISTENING
+  TCP    [::]:443               MIS-F3216338:0         LISTENING
+  TCP    [::]:445               MIS-F3216338:0         LISTENING
+  TCP    [::]:1027              MIS-F3216338:0         LISTENING
+  TCP    [::]:1028              MIS-F3216338:0         LISTENING
+  TCP    [::]:1031              MIS-F3216338:0         LISTENING
+  TCP    [::]:1044              MIS-F3216338:0         LISTENING
+  TCP    [::]:1064              MIS-F3216338:0         LISTENING
+  TCP    [::]:1068              MIS-F3216338:0         LISTENING
+  TCP    [::]:1433              MIS-F3216338:0         LISTENING
+  TCP    [::1]:1434             MIS-F3216338:0         LISTENING
+  TCP    [::1]:8307             MIS-F3216338:0         LISTENING
+  UDP    0.0.0.0:123            *:*
+  UDP    0.0.0.0:500            *:*
+  UDP    0.0.0.0:4500           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:53524          *:*
+  UDP    10.130.2.211:137       *:*
+  UDP    10.130.2.211:138       *:*
+  UDP    10.130.2.211:1900      *:*
+  UDP    10.130.2.211:52596     *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:49802        *:*
+  UDP    127.0.0.1:52209        *:*
+  UDP    127.0.0.1:52598        *:*
+  UDP    127.0.0.1:57673        *:*
+  UDP    192.168.137.1:137      *:*
+  UDP    192.168.137.1:138      *:*
+  UDP    192.168.137.1:1900     *:*
+  UDP    192.168.137.1:52595    *:*
+  UDP    192.168.161.1:137      *:*
+  UDP    192.168.161.1:138      *:*
+  UDP    192.168.161.1:1900     *:*
+  UDP    192.168.161.1:52597    *:*
+  UDP    [::]:123               *:*
+  UDP    [::]:500               *:*
+  UDP    [::]:4500              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:52594            *:*
+  UDP    [fe80::e7:3c19:18d0:2ef%22]:1900  *:*
+  UDP    [fe80::e7:3c19:18d0:2ef%22]:52591  *:*
+  UDP    [fe80::1061:69bf:931b:2049%11]:546  *:*
+  UDP    [fe80::1061:69bf:931b:2049%11]:1900  *:*
+  UDP    [fe80::1061:69bf:931b:2049%11]:52592  *:*
+  UDP    [fe80::d0e7:b73d:43a7:6dab%20]:1900  *:*
+  UDP    [fe80::d0e7:b73d:43a7:6dab%20]:52593  *:*

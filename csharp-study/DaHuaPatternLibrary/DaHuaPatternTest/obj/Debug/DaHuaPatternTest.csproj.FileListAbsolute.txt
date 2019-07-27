@@ -1,0 +1,7 @@
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\bin\Debug\DaHuaPatternTest.dll
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\bin\Debug\DaHuaPatternTest.pdb
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\bin\Debug\DaHuaPatternLibrary.dll
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\bin\Debug\DaHuaPatternLibrary.pdb
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\obj\Debug\DaHuaPatternTest.csprojResolveAssemblyReference.cache
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\obj\Debug\DaHuaPatternTest.dll
+D:\temp\jcutil\DaHuaPatternLibrary\DaHuaPatternTest\obj\Debug\DaHuaPatternTest.pdb

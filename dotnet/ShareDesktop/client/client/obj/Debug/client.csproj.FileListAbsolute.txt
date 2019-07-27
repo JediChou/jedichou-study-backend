@@ -1,0 +1,29 @@
+D:\client\client\bin\Debug\client.exe
+D:\client\client\bin\Debug\client.pdb
+D:\client\client\obj\Debug\client.MainForm.resources
+D:\client\client\obj\Debug\client.exe
+D:\client\client\obj\Debug\client.pdb
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\client.exe
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\client.pdb
+C:\Documents and Settings\Administrator\桌面\client\client\bin\Debug\client.exe
+C:\Documents and Settings\Administrator\桌面\client\client\bin\Debug\client.pdb
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\client.MainForm.resources
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\GenerateResource.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\client\client\obj\Debug\GenerateResource.write.1.tlog
+D:\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\Work\CA\ShareDesktop\client\client\obj\Debug\client.exe
+D:\Work\CA\ShareDesktop\client\client\obj\Debug\client.pdb
+D:\Work\CA\ShareDesktop\client\client\bin\Debug\client.exe
+D:\Work\CA\ShareDesktop\client\client\bin\Debug\client.pdb
+D:\Work\CA\ShareDesktop\client\client\obj\Debug\client.MainForm.resources
+D:\Work\CA\ShareDesktop\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\ShareDesktop\client\client\bin\Debug\client.exe.config
+D:\ShareDesktop\client\client\bin\Debug\client.exe
+D:\ShareDesktop\client\client\bin\Debug\client.pdb
+D:\ShareDesktop\client\client\obj\Debug\client.MainForm.resources
+D:\ShareDesktop\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\ShareDesktop\client\client\obj\Debug\client.exe
+D:\ShareDesktop\client\client\obj\Debug\client.pdb

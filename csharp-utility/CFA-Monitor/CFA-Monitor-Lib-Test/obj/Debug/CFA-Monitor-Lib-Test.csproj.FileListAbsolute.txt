@@ -1,0 +1,7 @@
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\obj\Debug\CFA-Monitor-Lib-Test.csprojResolveAssemblyReference.cache
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\bin\Debug\CFA-Monitor-Lib-Test.dll
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\bin\Debug\CFA-Monitor-Lib-Test.pdb
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\bin\Debug\monitorlib.dll
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\bin\Debug\monitorlib.pdb
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\obj\Debug\CFA-Monitor-Lib-Test.dll
+D:\temp\CFA-Monitor\CFA-Monitor-Lib-Test\obj\Debug\CFA-Monitor-Lib-Test.pdb

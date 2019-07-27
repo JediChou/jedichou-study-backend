@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SayHello">
+        <s:complexType />
+      </s:element>
+      <s:element name="SayHelloResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SayHelloResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendErrorMsg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Date" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Thread" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Level" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Logger" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Exception" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendErrorMsgResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="PutGPDPOXMLFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pXmlString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutGPDPOXMLFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PutGPDPOXMLFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutXMLFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pXmlString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSysType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutXMLFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PutXMLFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutFileStreamFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fileStream" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSysType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutFileStreamFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PutFileStreamFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutSignedFileByStream">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pArrSrc" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSeedFileID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSysType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutSignedFileByStreamResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PutSignedFileByStreamResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileUrlByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileUrlByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileUrlByIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileStreamByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileStreamByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileStreamByIDResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileStringByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileStringByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileStringByIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileIDLatest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileIDLatestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileIDLatestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileSignInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileSignInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileSignInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileStreamLatest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileStreamLatestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileStreamLatestResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileUrlLatest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileUrlLatestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileUrlLatestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIDList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIDListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetIDListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUrlList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUrlListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUrlListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFilePathById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFilePathByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFilePathByIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutSignInfoByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sFile_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSignInfo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutSignInfoByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PutSignInfoByIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetSignStyle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sFileID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStyle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sReason" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetSignStyleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetSignStyleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateXMLFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFileID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sElementName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sValue" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateXMLFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateXMLFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileInfoByNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sServer_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCase_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileInfoByNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileInfoByNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateApprovedData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sFile_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sServer_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCase_NO" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateApprovedDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateApprovedDataResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServiceList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServiceListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServiceListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCertType">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCertTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCertTypeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="base64Binary" nillable="true" type="s:base64Binary" />
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SayHelloSoapIn">
+    <wsdl:part name="parameters" element="tns:SayHello" />
+  </wsdl:message>
+  <wsdl:message name="SayHelloSoapOut">
+    <wsdl:part name="parameters" element="tns:SayHelloResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendErrorMsgSoapIn">
+    <wsdl:part name="parameters" element="tns:SendErrorMsg" />
+  </wsdl:message>
+  <wsdl:message name="SendErrorMsgSoapOut">
+    <wsdl:part name="parameters" element="tns:SendErrorMsgResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutGPDPOXMLFileSoapIn">
+    <wsdl:part name="parameters" element="tns:PutGPDPOXMLFile" />
+  </wsdl:message>
+  <wsdl:message name="PutGPDPOXMLFileSoapOut">
+    <wsdl:part name="parameters" element="tns:PutGPDPOXMLFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutXMLFileSoapIn">
+    <wsdl:part name="parameters" element="tns:PutXMLFile" />
+  </wsdl:message>
+  <wsdl:message name="PutXMLFileSoapOut">
+    <wsdl:part name="parameters" element="tns:PutXMLFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutFileStreamFileSoapIn">
+    <wsdl:part name="parameters" element="tns:PutFileStreamFile" />
+  </wsdl:message>
+  <wsdl:message name="PutFileStreamFileSoapOut">
+    <wsdl:part name="parameters" element="tns:PutFileStreamFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutSignedFileByStreamSoapIn">
+    <wsdl:part name="parameters" element="tns:PutSignedFileByStream" />
+  </wsdl:message>
+  <wsdl:message name="PutSignedFileByStreamSoapOut">
+    <wsdl:part name="parameters" element="tns:PutSignedFileByStreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileUrlByID" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileUrlByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileStreamByID" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileStreamByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStringByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileStringByID" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStringByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileStringByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileIDLatestSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileIDLatest" />
+  </wsdl:message>
+  <wsdl:message name="GetFileIDLatestSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileIDLatestResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSignInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileSignInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSignInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileSignInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamLatestSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileStreamLatest" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamLatestSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileStreamLatestResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlLatestSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileUrlLatest" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlLatestSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileUrlLatestResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIDListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetIDList" />
+  </wsdl:message>
+  <wsdl:message name="GetIDListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetIDListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUrlList" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUrlListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFilePathByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFilePathById" />
+  </wsdl:message>
+  <wsdl:message name="GetFilePathByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFilePathByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutSignInfoByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:PutSignInfoByID" />
+  </wsdl:message>
+  <wsdl:message name="PutSignInfoByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:PutSignInfoByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetSignStyleSoapIn">
+    <wsdl:part name="parameters" element="tns:SetSignStyle" />
+  </wsdl:message>
+  <wsdl:message name="SetSignStyleSoapOut">
+    <wsdl:part name="parameters" element="tns:SetSignStyleResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateXMLFileSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateXMLFile" />
+  </wsdl:message>
+  <wsdl:message name="UpdateXMLFileSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateXMLFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileInfoByNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFileInfoByNo" />
+  </wsdl:message>
+  <wsdl:message name="GetFileInfoByNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileInfoByNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApprovedDataSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateApprovedData" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApprovedDataSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateApprovedDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServiceList" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServiceListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCertTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCertType" />
+  </wsdl:message>
+  <wsdl:message name="GetCertTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCertTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SayHelloHttpGetIn" />
+  <wsdl:message name="SayHelloHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendErrorMsgHttpGetIn">
+    <wsdl:part name="Date" type="s:string" />
+    <wsdl:part name="Thread" type="s:string" />
+    <wsdl:part name="Level" type="s:string" />
+    <wsdl:part name="Logger" type="s:string" />
+    <wsdl:part name="Message" type="s:string" />
+    <wsdl:part name="Exception" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendErrorMsgHttpGetOut" />
+  <wsdl:message name="PutGPDPOXMLFileHttpGetIn">
+    <wsdl:part name="pXmlString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutGPDPOXMLFileHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutXMLFileHttpGetIn">
+    <wsdl:part name="pXmlString" type="s:string" />
+    <wsdl:part name="pSysType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutXMLFileHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutFileStreamFileHttpGetIn">
+    <wsdl:part name="fileStream" type="s1:StringArray" />
+    <wsdl:part name="pSysType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutFileStreamFileHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignedFileByStreamHttpGetIn">
+    <wsdl:part name="pArrSrc" type="s1:StringArray" />
+    <wsdl:part name="pSeedFileID" type="s:string" />
+    <wsdl:part name="pSysType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignedFileByStreamHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlByIDHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlByIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamByIDHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamByIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStringByIDHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStringByIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileIDLatestHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileIDLatestHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSignInfoHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSignInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamLatestHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamLatestHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlLatestHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlLatestHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIDListHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIDListHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlListHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlListHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetFilePathByIdHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFilePathByIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignInfoByIDHttpGetIn">
+    <wsdl:part name="sFile_ID" type="s:string" />
+    <wsdl:part name="sSignInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignInfoByIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSignStyleHttpGetIn">
+    <wsdl:part name="sFileID" type="s:string" />
+    <wsdl:part name="sStyle" type="s:string" />
+    <wsdl:part name="sReason" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSignStyleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateXMLFileHttpGetIn">
+    <wsdl:part name="pFileID" type="s:string" />
+    <wsdl:part name="sElementName" type="s:string" />
+    <wsdl:part name="sValue" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateXMLFileHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileInfoByNoHttpGetIn">
+    <wsdl:part name="sServer_ID" type="s:string" />
+    <wsdl:part name="sCase_No" type="s:string" />
+    <wsdl:part name="sType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileInfoByNoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApprovedDataHttpGetIn">
+    <wsdl:part name="sFile_ID" type="s:string" />
+    <wsdl:part name="sServer_ID" type="s:string" />
+    <wsdl:part name="sCase_NO" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApprovedDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceListHttpGetIn" />
+  <wsdl:message name="GetServiceListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCertTypeHttpGetIn" />
+  <wsdl:message name="GetCertTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SayHelloHttpPostIn" />
+  <wsdl:message name="SayHelloHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendErrorMsgHttpPostIn">
+    <wsdl:part name="Date" type="s:string" />
+    <wsdl:part name="Thread" type="s:string" />
+    <wsdl:part name="Level" type="s:string" />
+    <wsdl:part name="Logger" type="s:string" />
+    <wsdl:part name="Message" type="s:string" />
+    <wsdl:part name="Exception" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendErrorMsgHttpPostOut" />
+  <wsdl:message name="PutGPDPOXMLFileHttpPostIn">
+    <wsdl:part name="pXmlString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutGPDPOXMLFileHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutXMLFileHttpPostIn">
+    <wsdl:part name="pXmlString" type="s:string" />
+    <wsdl:part name="pSysType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutXMLFileHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutFileStreamFileHttpPostIn">
+    <wsdl:part name="fileStream" type="s1:StringArray" />
+    <wsdl:part name="pSysType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutFileStreamFileHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignedFileByStreamHttpPostIn">
+    <wsdl:part name="pArrSrc" type="s1:StringArray" />
+    <wsdl:part name="pSeedFileID" type="s:string" />
+    <wsdl:part name="pSysType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignedFileByStreamHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlByIDHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlByIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamByIDHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamByIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStringByIDHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStringByIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileIDLatestHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileIDLatestHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSignInfoHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSignInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamLatestHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileStreamLatestHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlLatestHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileUrlLatestHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIDListHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIDListHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlListHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlListHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetFilePathByIdHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFilePathByIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignInfoByIDHttpPostIn">
+    <wsdl:part name="sFile_ID" type="s:string" />
+    <wsdl:part name="sSignInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PutSignInfoByIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSignStyleHttpPostIn">
+    <wsdl:part name="sFileID" type="s:string" />
+    <wsdl:part name="sStyle" type="s:string" />
+    <wsdl:part name="sReason" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSignStyleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateXMLFileHttpPostIn">
+    <wsdl:part name="pFileID" type="s:string" />
+    <wsdl:part name="sElementName" type="s:string" />
+    <wsdl:part name="sValue" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateXMLFileHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileInfoByNoHttpPostIn">
+    <wsdl:part name="sServer_ID" type="s:string" />
+    <wsdl:part name="sCase_No" type="s:string" />
+    <wsdl:part name="sType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFileInfoByNoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApprovedDataHttpPostIn">
+    <wsdl:part name="sFile_ID" type="s:string" />
+    <wsdl:part name="sServer_ID" type="s:string" />
+    <wsdl:part name="sCase_NO" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApprovedDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetServiceListHttpPostIn" />
+  <wsdl:message name="GetServiceListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCertTypeHttpPostIn" />
+  <wsdl:message name="GetCertTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="ESignWSESoap">
+    <wsdl:operation name="SayHello">
+      <wsdl:input message="tns:SayHelloSoapIn" />
+      <wsdl:output message="tns:SayHelloSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <wsdl:input message="tns:SendErrorMsgSoapIn" />
+      <wsdl:output message="tns:SendErrorMsgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <wsdl:input message="tns:PutGPDPOXMLFileSoapIn" />
+      <wsdl:output message="tns:PutGPDPOXMLFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <wsdl:input message="tns:PutXMLFileSoapIn" />
+      <wsdl:output message="tns:PutXMLFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <wsdl:input message="tns:PutFileStreamFileSoapIn" />
+      <wsdl:output message="tns:PutFileStreamFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <wsdl:input message="tns:PutSignedFileByStreamSoapIn" />
+      <wsdl:output message="tns:PutSignedFileByStreamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <wsdl:input message="tns:GetFileUrlByIDSoapIn" />
+      <wsdl:output message="tns:GetFileUrlByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <wsdl:input message="tns:GetFileStreamByIDSoapIn" />
+      <wsdl:output message="tns:GetFileStreamByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <wsdl:input message="tns:GetFileStringByIDSoapIn" />
+      <wsdl:output message="tns:GetFileStringByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <wsdl:input message="tns:GetFileIDLatestSoapIn" />
+      <wsdl:output message="tns:GetFileIDLatestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <wsdl:input message="tns:GetFileSignInfoSoapIn" />
+      <wsdl:output message="tns:GetFileSignInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <wsdl:input message="tns:GetFileStreamLatestSoapIn" />
+      <wsdl:output message="tns:GetFileStreamLatestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <wsdl:input message="tns:GetFileUrlLatestSoapIn" />
+      <wsdl:output message="tns:GetFileUrlLatestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <wsdl:input message="tns:GetIDListSoapIn" />
+      <wsdl:output message="tns:GetIDListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <wsdl:input message="tns:GetUrlListSoapIn" />
+      <wsdl:output message="tns:GetUrlListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <wsdl:input message="tns:GetFilePathByIdSoapIn" />
+      <wsdl:output message="tns:GetFilePathByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <wsdl:input message="tns:PutSignInfoByIDSoapIn" />
+      <wsdl:output message="tns:PutSignInfoByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <wsdl:input message="tns:SetSignStyleSoapIn" />
+      <wsdl:output message="tns:SetSignStyleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <wsdl:input message="tns:UpdateXMLFileSoapIn" />
+      <wsdl:output message="tns:UpdateXMLFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <wsdl:input message="tns:GetFileInfoByNoSoapIn" />
+      <wsdl:output message="tns:GetFileInfoByNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <wsdl:input message="tns:UpdateApprovedDataSoapIn" />
+      <wsdl:output message="tns:UpdateApprovedDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <wsdl:input message="tns:GetServiceListSoapIn" />
+      <wsdl:output message="tns:GetServiceListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <wsdl:input message="tns:GetCertTypeSoapIn" />
+      <wsdl:output message="tns:GetCertTypeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ESignWSEHttpGet">
+    <wsdl:operation name="SayHello">
+      <wsdl:input message="tns:SayHelloHttpGetIn" />
+      <wsdl:output message="tns:SayHelloHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <wsdl:input message="tns:SendErrorMsgHttpGetIn" />
+      <wsdl:output message="tns:SendErrorMsgHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <wsdl:input message="tns:PutGPDPOXMLFileHttpGetIn" />
+      <wsdl:output message="tns:PutGPDPOXMLFileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <wsdl:input message="tns:PutXMLFileHttpGetIn" />
+      <wsdl:output message="tns:PutXMLFileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <wsdl:input message="tns:PutFileStreamFileHttpGetIn" />
+      <wsdl:output message="tns:PutFileStreamFileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <wsdl:input message="tns:PutSignedFileByStreamHttpGetIn" />
+      <wsdl:output message="tns:PutSignedFileByStreamHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <wsdl:input message="tns:GetFileUrlByIDHttpGetIn" />
+      <wsdl:output message="tns:GetFileUrlByIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <wsdl:input message="tns:GetFileStreamByIDHttpGetIn" />
+      <wsdl:output message="tns:GetFileStreamByIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <wsdl:input message="tns:GetFileStringByIDHttpGetIn" />
+      <wsdl:output message="tns:GetFileStringByIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <wsdl:input message="tns:GetFileIDLatestHttpGetIn" />
+      <wsdl:output message="tns:GetFileIDLatestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <wsdl:input message="tns:GetFileSignInfoHttpGetIn" />
+      <wsdl:output message="tns:GetFileSignInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <wsdl:input message="tns:GetFileStreamLatestHttpGetIn" />
+      <wsdl:output message="tns:GetFileStreamLatestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <wsdl:input message="tns:GetFileUrlLatestHttpGetIn" />
+      <wsdl:output message="tns:GetFileUrlLatestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <wsdl:input message="tns:GetIDListHttpGetIn" />
+      <wsdl:output message="tns:GetIDListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <wsdl:input message="tns:GetUrlListHttpGetIn" />
+      <wsdl:output message="tns:GetUrlListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <wsdl:input message="tns:GetFilePathByIdHttpGetIn" />
+      <wsdl:output message="tns:GetFilePathByIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <wsdl:input message="tns:PutSignInfoByIDHttpGetIn" />
+      <wsdl:output message="tns:PutSignInfoByIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <wsdl:input message="tns:SetSignStyleHttpGetIn" />
+      <wsdl:output message="tns:SetSignStyleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <wsdl:input message="tns:UpdateXMLFileHttpGetIn" />
+      <wsdl:output message="tns:UpdateXMLFileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <wsdl:input message="tns:GetFileInfoByNoHttpGetIn" />
+      <wsdl:output message="tns:GetFileInfoByNoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <wsdl:input message="tns:UpdateApprovedDataHttpGetIn" />
+      <wsdl:output message="tns:UpdateApprovedDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <wsdl:input message="tns:GetServiceListHttpGetIn" />
+      <wsdl:output message="tns:GetServiceListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <wsdl:input message="tns:GetCertTypeHttpGetIn" />
+      <wsdl:output message="tns:GetCertTypeHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ESignWSEHttpPost">
+    <wsdl:operation name="SayHello">
+      <wsdl:input message="tns:SayHelloHttpPostIn" />
+      <wsdl:output message="tns:SayHelloHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <wsdl:input message="tns:SendErrorMsgHttpPostIn" />
+      <wsdl:output message="tns:SendErrorMsgHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <wsdl:input message="tns:PutGPDPOXMLFileHttpPostIn" />
+      <wsdl:output message="tns:PutGPDPOXMLFileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <wsdl:input message="tns:PutXMLFileHttpPostIn" />
+      <wsdl:output message="tns:PutXMLFileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <wsdl:input message="tns:PutFileStreamFileHttpPostIn" />
+      <wsdl:output message="tns:PutFileStreamFileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <wsdl:input message="tns:PutSignedFileByStreamHttpPostIn" />
+      <wsdl:output message="tns:PutSignedFileByStreamHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <wsdl:input message="tns:GetFileUrlByIDHttpPostIn" />
+      <wsdl:output message="tns:GetFileUrlByIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <wsdl:input message="tns:GetFileStreamByIDHttpPostIn" />
+      <wsdl:output message="tns:GetFileStreamByIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <wsdl:input message="tns:GetFileStringByIDHttpPostIn" />
+      <wsdl:output message="tns:GetFileStringByIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <wsdl:input message="tns:GetFileIDLatestHttpPostIn" />
+      <wsdl:output message="tns:GetFileIDLatestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <wsdl:input message="tns:GetFileSignInfoHttpPostIn" />
+      <wsdl:output message="tns:GetFileSignInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <wsdl:input message="tns:GetFileStreamLatestHttpPostIn" />
+      <wsdl:output message="tns:GetFileStreamLatestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <wsdl:input message="tns:GetFileUrlLatestHttpPostIn" />
+      <wsdl:output message="tns:GetFileUrlLatestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <wsdl:input message="tns:GetIDListHttpPostIn" />
+      <wsdl:output message="tns:GetIDListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <wsdl:input message="tns:GetUrlListHttpPostIn" />
+      <wsdl:output message="tns:GetUrlListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <wsdl:input message="tns:GetFilePathByIdHttpPostIn" />
+      <wsdl:output message="tns:GetFilePathByIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <wsdl:input message="tns:PutSignInfoByIDHttpPostIn" />
+      <wsdl:output message="tns:PutSignInfoByIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <wsdl:input message="tns:SetSignStyleHttpPostIn" />
+      <wsdl:output message="tns:SetSignStyleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <wsdl:input message="tns:UpdateXMLFileHttpPostIn" />
+      <wsdl:output message="tns:UpdateXMLFileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <wsdl:input message="tns:GetFileInfoByNoHttpPostIn" />
+      <wsdl:output message="tns:GetFileInfoByNoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <wsdl:input message="tns:UpdateApprovedDataHttpPostIn" />
+      <wsdl:output message="tns:UpdateApprovedDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <wsdl:input message="tns:GetServiceListHttpPostIn" />
+      <wsdl:output message="tns:GetServiceListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <wsdl:input message="tns:GetCertTypeHttpPostIn" />
+      <wsdl:output message="tns:GetCertTypeHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ESignWSESoap" type="tns:ESignWSESoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SayHello">
+      <soap:operation soapAction="http://tempuri.org/SayHello" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <soap:operation soapAction="http://tempuri.org/SendErrorMsg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <soap:operation soapAction="http://tempuri.org/PutGPDPOXMLFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <soap:operation soapAction="http://tempuri.org/PutXMLFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <soap:operation soapAction="http://tempuri.org/PutFileStreamFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <soap:operation soapAction="http://tempuri.org/PutSignedFileByStream" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <soap:operation soapAction="http://tempuri.org/GetFileUrlByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <soap:operation soapAction="http://tempuri.org/GetFileStreamByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <soap:operation soapAction="http://tempuri.org/GetFileStringByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <soap:operation soapAction="http://tempuri.org/GetFileIDLatest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <soap:operation soapAction="http://tempuri.org/GetFileSignInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <soap:operation soapAction="http://tempuri.org/GetFileStreamLatest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <soap:operation soapAction="http://tempuri.org/GetFileUrlLatest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <soap:operation soapAction="http://tempuri.org/GetIDList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <soap:operation soapAction="http://tempuri.org/GetUrlList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <soap:operation soapAction="http://tempuri.org/GetFilePathById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <soap:operation soapAction="http://tempuri.org/PutSignInfoByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <soap:operation soapAction="http://tempuri.org/SetSignStyle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <soap:operation soapAction="http://tempuri.org/UpdateXMLFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <soap:operation soapAction="http://tempuri.org/GetFileInfoByNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <soap:operation soapAction="http://tempuri.org/UpdateApprovedData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <soap:operation soapAction="http://tempuri.org/GetServiceList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <soap:operation soapAction="http://tempuri.org/GetCertType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ESignWSESoap12" type="tns:ESignWSESoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SayHello">
+      <soap12:operation soapAction="http://tempuri.org/SayHello" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <soap12:operation soapAction="http://tempuri.org/SendErrorMsg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <soap12:operation soapAction="http://tempuri.org/PutGPDPOXMLFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <soap12:operation soapAction="http://tempuri.org/PutXMLFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <soap12:operation soapAction="http://tempuri.org/PutFileStreamFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <soap12:operation soapAction="http://tempuri.org/PutSignedFileByStream" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <soap12:operation soapAction="http://tempuri.org/GetFileUrlByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <soap12:operation soapAction="http://tempuri.org/GetFileStreamByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <soap12:operation soapAction="http://tempuri.org/GetFileStringByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <soap12:operation soapAction="http://tempuri.org/GetFileIDLatest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetFileSignInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <soap12:operation soapAction="http://tempuri.org/GetFileStreamLatest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <soap12:operation soapAction="http://tempuri.org/GetFileUrlLatest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <soap12:operation soapAction="http://tempuri.org/GetIDList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <soap12:operation soapAction="http://tempuri.org/GetUrlList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <soap12:operation soapAction="http://tempuri.org/GetFilePathById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <soap12:operation soapAction="http://tempuri.org/PutSignInfoByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <soap12:operation soapAction="http://tempuri.org/SetSignStyle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <soap12:operation soapAction="http://tempuri.org/UpdateXMLFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <soap12:operation soapAction="http://tempuri.org/GetFileInfoByNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <soap12:operation soapAction="http://tempuri.org/UpdateApprovedData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <soap12:operation soapAction="http://tempuri.org/GetServiceList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <soap12:operation soapAction="http://tempuri.org/GetCertType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ESignWSEHttpGet" type="tns:ESignWSEHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="SayHello">
+      <http:operation location="/SayHello" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <http:operation location="/SendErrorMsg" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <http:operation location="/PutGPDPOXMLFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <http:operation location="/PutXMLFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <http:operation location="/PutFileStreamFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <http:operation location="/PutSignedFileByStream" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <http:operation location="/GetFileUrlByID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <http:operation location="/GetFileStreamByID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <http:operation location="/GetFileStringByID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <http:operation location="/GetFileIDLatest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <http:operation location="/GetFileSignInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <http:operation location="/GetFileStreamLatest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <http:operation location="/GetFileUrlLatest" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <http:operation location="/GetIDList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <http:operation location="/GetUrlList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <http:operation location="/GetFilePathById" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <http:operation location="/PutSignInfoByID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <http:operation location="/SetSignStyle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <http:operation location="/UpdateXMLFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <http:operation location="/GetFileInfoByNo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <http:operation location="/UpdateApprovedData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <http:operation location="/GetServiceList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <http:operation location="/GetCertType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ESignWSEHttpPost" type="tns:ESignWSEHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="SayHello">
+      <http:operation location="/SayHello" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendErrorMsg">
+      <http:operation location="/SendErrorMsg" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="PutGPDPOXMLFile">
+      <http:operation location="/PutGPDPOXMLFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutXMLFile">
+      <http:operation location="/PutXMLFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutFileStreamFile">
+      <http:operation location="/PutFileStreamFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignedFileByStream">
+      <http:operation location="/PutSignedFileByStream" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlByID">
+      <http:operation location="/GetFileUrlByID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamByID">
+      <http:operation location="/GetFileStreamByID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStringByID">
+      <http:operation location="/GetFileStringByID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileIDLatest">
+      <http:operation location="/GetFileIDLatest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileSignInfo">
+      <http:operation location="/GetFileSignInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileStreamLatest">
+      <http:operation location="/GetFileStreamLatest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileUrlLatest">
+      <http:operation location="/GetFileUrlLatest" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIDList">
+      <http:operation location="/GetIDList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlList">
+      <http:operation location="/GetUrlList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilePathById">
+      <http:operation location="/GetFilePathById" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutSignInfoByID">
+      <http:operation location="/PutSignInfoByID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSignStyle">
+      <http:operation location="/SetSignStyle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateXMLFile">
+      <http:operation location="/UpdateXMLFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInfoByNo">
+      <http:operation location="/GetFileInfoByNo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovedData">
+      <http:operation location="/UpdateApprovedData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceList">
+      <http:operation location="/GetServiceList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCertType">
+      <http:operation location="/GetCertType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ESignWSE">
+    <wsdl:port name="ESignWSESoap" binding="tns:ESignWSESoap">
+      <soap:address location="http://localhost:21542/ESignWSE/ESignWSE.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ESignWSESoap12" binding="tns:ESignWSESoap12">
+      <soap12:address location="http://localhost:21542/ESignWSE/ESignWSE.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ESignWSEHttpGet" binding="tns:ESignWSEHttpGet">
+      <http:address location="http://localhost:21542/ESignWSE/ESignWSE.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ESignWSEHttpPost" binding="tns:ESignWSEHttpPost">
+      <http:address location="http://localhost:21542/ESignWSE/ESignWSE.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

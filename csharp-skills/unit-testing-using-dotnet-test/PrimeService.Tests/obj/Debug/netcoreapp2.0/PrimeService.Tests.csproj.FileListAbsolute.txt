@@ -1,0 +1,15 @@
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.Tests.deps.json
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.Tests.runtimeconfig.json
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.Tests.runtimeconfig.dev.json
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.Tests.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.Tests.pdb
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\bin\Debug\netcoreapp2.0\PrimeService.pdb
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\obj\Debug\netcoreapp2.0\PrimeService.Tests.csproj.CoreCompileInputs.cache
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\obj\Debug\netcoreapp2.0\PrimeService.Tests.AssemblyInfoInputs.cache
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\obj\Debug\netcoreapp2.0\PrimeService.Tests.AssemblyInfo.cs
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\obj\Debug\netcoreapp2.0\PrimeService.Tests.dll
+D:\temp\Jclab\unit-testing-using-dotnet-test\PrimeService.Tests\obj\Debug\netcoreapp2.0\PrimeService.Tests.pdb

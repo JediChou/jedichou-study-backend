@@ -1,0 +1,4 @@
+D:\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\bin\Release\msmq-0204-SendMessagesWithinInternalTransactions.exe
+D:\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\bin\Release\msmq-0204-SendMessagesWithinInternalTransactions.pdb
+D:\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\obj\x86\Release\msmq-0204-SendMessagesWithinInternalTransactions.exe
+D:\msmq-example\msmq-0204-SendMessagesWithinInternalTransactions\obj\x86\Release\msmq-0204-SendMessagesWithinInternalTransactions.pdb

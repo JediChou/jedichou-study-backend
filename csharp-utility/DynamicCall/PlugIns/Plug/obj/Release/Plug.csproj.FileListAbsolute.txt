@@ -1,0 +1,5 @@
+D:\temp\DynamicCall\release-bin\Plug.dll
+D:\temp\DynamicCall\release-bin\Plug.pdb
+D:\temp\PlugIns\Plug\obj\Release\Plug.csprojResolveAssemblyReference.cache
+D:\temp\PlugIns\Plug\obj\Release\Plug.dll
+D:\temp\PlugIns\Plug\obj\Release\Plug.pdb

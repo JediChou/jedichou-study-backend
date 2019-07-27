@@ -1,0 +1,4 @@
+D:\temp\PortScanCmd\PortScanCmd\bin\Debug\PortScanCmd.exe
+D:\temp\PortScanCmd\PortScanCmd\bin\Debug\PortScanCmd.pdb
+D:\temp\PortScanCmd\PortScanCmd\obj\x86\Debug\PortScanCmd.exe
+D:\temp\PortScanCmd\PortScanCmd\obj\x86\Debug\PortScanCmd.pdb

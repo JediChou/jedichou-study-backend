@@ -1,0 +1,12 @@
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\SplitSheetTest.dll
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\SplitSheetTest.pdb
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\NPOI.dll
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\SplitSheet.exe
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\SplitSheet.pdb
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\NPOI.xml
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\SplitSheet_Accessor.exe
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\bin\Debug\SplitSheet_Accessor.pdb
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\obj\Debug\SplitSheetTest.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\obj\Debug\SplitSheetTest.dll
+D:\WorkSpaces\Legal\SplitSheet\SplitSheetTest\obj\Debug\SplitSheetTest.pdb

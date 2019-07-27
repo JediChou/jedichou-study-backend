@@ -1,0 +1,4 @@
+D:\temp\0206-递归1\Excise1\bin\Debug\Excise1.exe
+D:\temp\0206-递归1\Excise1\bin\Debug\Excise1.pdb
+D:\temp\0206-递归1\Excise1\obj\x86\Debug\Excise1.exe
+D:\temp\0206-递归1\Excise1\obj\x86\Debug\Excise1.pdb

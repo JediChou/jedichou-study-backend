@@ -1,0 +1,7 @@
+D:\temp\05-ExcelImport\ExcelExport\bin\Debug\ExcelExport.exe
+D:\temp\05-ExcelImport\ExcelExport\bin\Debug\ExcelExport.pdb
+D:\temp\05-ExcelImport\ExcelExport\obj\x86\Debug\ExcelExport.csprojResolveAssemblyReference.cache
+D:\temp\05-ExcelImport\ExcelExport\obj\x86\Debug\ExcelExport.exe
+D:\temp\05-ExcelImport\ExcelExport\obj\x86\Debug\ExcelExport.pdb
+D:\temp\3tir\05-ExcelImport\ExcelExport\obj\x86\Debug\ExcelExport.exe
+D:\temp\3tir\05-ExcelImport\ExcelExport\obj\x86\Debug\ExcelExport.pdb

@@ -1,0 +1,4 @@
+D:\temp\read-report\read-report\bin\Debug\read-report.exe
+D:\temp\read-report\read-report\bin\Debug\read-report.pdb
+D:\temp\read-report\read-report\obj\x86\Debug\read-report.exe
+D:\temp\read-report\read-report\obj\x86\Debug\read-report.pdb

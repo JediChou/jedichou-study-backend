@@ -1,0 +1,4 @@
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0202-SendComplexMessages\bin\Debug\msmq-0202-SendComplexMessages.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0202-SendComplexMessages\bin\Debug\msmq-0202-SendComplexMessages.pdb
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0202-SendComplexMessages\obj\x86\Debug\msmq-0202-SendComplexMessages.exe
+D:\temp\mygit\jedichou-study-csharp\msmq-example\msmq-0202-SendComplexMessages\obj\x86\Debug\msmq-0202-SendComplexMessages.pdb

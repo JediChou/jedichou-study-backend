@@ -1,0 +1,4 @@
+D:\temp\DynamicCall\DllCall\DllCall\bin\Debug\DllCall.exe
+D:\temp\DynamicCall\DllCall\DllCall\bin\Debug\DllCall.pdb
+D:\temp\DynamicCall\DllCall\DllCall\bin\Debug\PlugInterface.dll
+D:\temp\DynamicCall\DllCall\DllCall\bin\Debug\PlugInterface.pdb

@@ -1,0 +1,22 @@
+D:\deskshare\deskshare\bin\Debug\deskshare.exe
+D:\deskshare\deskshare\bin\Debug\deskshare.pdb
+D:\deskshare\deskshare\obj\Debug\deskshare.MainForm.resources
+D:\deskshare\deskshare\obj\Debug\deskshare.exe
+D:\deskshare\deskshare\obj\Debug\deskshare.pdb
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\obj\Debug\deskshare.exe
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\obj\Debug\deskshare.pdb
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\bin\Debug\deskshare.exe
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\bin\Debug\deskshare.pdb
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\obj\Debug\deskshare.MainForm.resources
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\deskshare\deskshare\obj\Debug\GenerateResource.write.1.tlog
+D:\deskshare\deskshare\obj\Debug\deskshare.csproj.GenerateResource.Cache
+D:\deskshare\deskshare\obj\Debug\deskshare.csprojResolveAssemblyReference.cache
+D:\Work\CA\ShareDesktop\deskshare\deskshare\obj\Debug\deskshare.exe
+D:\Work\CA\ShareDesktop\deskshare\deskshare\obj\Debug\deskshare.pdb
+D:\Work\CA\ShareDesktop\deskshare\deskshare\bin\Debug\deskshare.exe
+D:\Work\CA\ShareDesktop\deskshare\deskshare\bin\Debug\deskshare.pdb
+D:\Work\CA\ShareDesktop\deskshare\deskshare\obj\Debug\deskshare.csprojResolveAssemblyReference.cache
+D:\Work\CA\ShareDesktop\deskshare\deskshare\obj\Debug\deskshare.MainForm.resources
+D:\Work\CA\ShareDesktop\deskshare\deskshare\obj\Debug\deskshare.csproj.GenerateResource.Cache

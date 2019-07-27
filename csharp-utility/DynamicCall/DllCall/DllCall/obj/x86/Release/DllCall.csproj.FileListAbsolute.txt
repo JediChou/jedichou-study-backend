@@ -1,0 +1,5 @@
+D:\temp\DynamicCall\release-bin\DllCall.exe
+D:\temp\DynamicCall\release-bin\DllCall.pdb
+D:\temp\DynamicCall\DllCall\DllCall\obj\x86\Release\DllCall.csprojResolveAssemblyReference.cache
+D:\temp\DynamicCall\DllCall\DllCall\obj\x86\Release\DllCall.exe
+D:\temp\DynamicCall\DllCall\DllCall\obj\x86\Release\DllCall.pdb

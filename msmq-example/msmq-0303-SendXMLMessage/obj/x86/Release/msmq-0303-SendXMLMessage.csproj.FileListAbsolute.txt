@@ -1,0 +1,5 @@
+D:\msmq-example\msmq-0303-SendXMLMessage\bin\Release\msmq-0303-SendXMLMessage.exe.config
+D:\msmq-example\msmq-0303-SendXMLMessage\bin\Release\msmq-0303-SendXMLMessage.exe
+D:\msmq-example\msmq-0303-SendXMLMessage\bin\Release\msmq-0303-SendXMLMessage.pdb
+D:\msmq-example\msmq-0303-SendXMLMessage\obj\x86\Release\msmq-0303-SendXMLMessage.exe
+D:\msmq-example\msmq-0303-SendXMLMessage\obj\x86\Release\msmq-0303-SendXMLMessage.pdb

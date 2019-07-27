@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FsTutorial</name></assembly>
+<members>
+<member name="F:Tutorial.Widget.state">
+<summary>
+ Widget 的內部狀態
+</summary>
+</member>
+<member name="P:Tutorial.Widget.HasBeenPoked">
+<summary>
+ Widget 被查詢過嗎?
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Tutorial.Widget">
+<summary>
+ 計算自身被查詢次數的 Widget
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:Tutorial.Vector2D.Length">
+<summary>
+ 向量的長度
+</summary>
+</member>
+<member name="P:Tutorial.Vector2D.DY">
+<summary>
+ 在 Y 軸上的位移
+</summary>
+</member>
+<member name="P:Tutorial.Vector2D.DX">
+<summary>
+ 在 X 軸上的位移
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Tutorial.Vector2D">
+<summary>
+ 二維向量
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Tutorial.Square(System.Int32)">
+<summary>
+ 計算輸入值之平方的函式
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:Tutorial.lookupTable">
+<summary>
+ 內含整數索引鍵和字串值的字典
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:Tutorial.arrLength">
+<summary>
+ 使用陣列物件的執行個體方法，計算陣列的長度
+</summary>
+</member>
+<member name="P:Tutorial.arr">
+<summary>
+ 建立陣列
+</summary>
+</member>
+<member name="P:Tutorial.squaresOfOneToTen">
+<summary>
+ 前 10 個整數的平方
+</summary>
+</member>
+<member name="P:Tutorial.oneToTen">
+<summary>
+ 介於 1 到 10 (含) 之間的整數清單
+</summary>
+</member>
+<member name="P:Tutorial.listD">
+<summary>
+ 清單的總和
+</summary>
+</member>
+<member name="M:Tutorial.SumList(Microsoft.FSharp.Collections.FSharpList{System.Int32})">
+<summary>
+ 使用遞迴函式計算整數清單的總和
+</summary>
+</member>
+<member name="P:Tutorial.listC">
+<summary>
+ 有 3 個整數的清單，注意 :: 是指 &apos;cons&apos; 作業
+</summary>
+</member>
+<member name="P:Tutorial.listB">
+<summary>
+ 有 3 個整數的清單
+</summary>
+</member>
+<member name="M:Tutorial.listA``1">
+<summary>
+ 空白清單
+</summary>
+</member>
+<member name="P:Tutorial.stringD">
+<summary>
+ 使用 .NET 程式庫函式計算 &quot;Hello world&quot;
+</summary>
+</member>
+<member name="P:Tutorial.stringC">
+<summary>
+ 使用字串串連計算 &quot;Hello world&quot;
+</summary>
+</member>
+<member name="P:Tutorial.stringB">
+<summary>
+ 第二個簡單的字串
+</summary>
+</member>
+<member name="P:Tutorial.stringA">
+<summary>
+ 簡單的字串
+</summary>
+</member>
+<member name="P:Tutorial.boolean3">
+<summary>
+ 使用 And、Or 和 Not 計算新的布林值
+</summary>
+</member>
+<member name="P:Tutorial.boolean2">
+<summary>
+ 第二個簡單的布林值
+</summary>
+</member>
+<member name="P:Tutorial.boolean1">
+<summary>
+ 簡單的布林值
+</summary>
+</member>
+<member name="M:Tutorial.Swap``2(``0,``1)">
+<summary>
+ 將 Tuple 中兩個值的順序互換的函式
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Tutorial.hcf(System.Int32,System.Int32)">
+<summary>
+ 計算兩個整數的最大公因數
+</summary>
+</member>
+<member name="M:Tutorial.factorial(System.Int32)">
+<summary>
+ 計算整數的階乘
+</summary>
+</member>
+<member name="M:Tutorial.increment(System.Int32)">
+<summary>
+ 另一個整數的函式
+</summary>
+</member>
+<member name="P:Tutorial.result">
+<summary>
+ 簡單計算的結果
+</summary>
+</member>
+<member name="M:Tutorial.f(System.Int32)">
+<summary>
+ 整數的函式
+</summary>
+</member>
+<member name="P:Tutorial.int3">
+<summary>
+ 兩個整數相加
+</summary>
+</member>
+<member name="P:Tutorial.int2">
+<summary>
+ 第二個非常簡單的常數整數
+</summary>
+</member>
+<member name="P:Tutorial.int1">
+<summary>
+ 非常簡單的常數整數
+</summary>
+</member>
+<member name="T:Tutorial">
+
+</member>
+</members>
+</doc>
