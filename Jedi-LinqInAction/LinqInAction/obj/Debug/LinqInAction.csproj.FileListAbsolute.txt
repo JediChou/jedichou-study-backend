@@ -1,0 +1,5 @@
+D:\Jedi-LinqInAction\LinqInAction\bin\Debug\LinqInAction.dll
+D:\Jedi-LinqInAction\LinqInAction\bin\Debug\LinqInAction.pdb
+D:\Jedi-LinqInAction\LinqInAction\obj\Debug\LinqInAction.dll
+D:\Jedi-LinqInAction\LinqInAction\obj\Debug\LinqInAction.pdb
+D:\Jedi-LinqInAction\LinqInAction\obj\Debug\LinqInAction.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\LinqInAction.Test.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\LinqInAction.Test.pdb
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\LinqInAction.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\LinqInAction.pdb
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Jedi-LinqInAction\LinqInAction.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Jedi-LinqInAction\LinqInAction.Test\obj\Debug\LinqInAction.Test.csprojResolveAssemblyReference.cache
+D:\Jedi-LinqInAction\LinqInAction.Test\obj\Debug\LinqInAction.Test.dll
+D:\Jedi-LinqInAction\LinqInAction.Test\obj\Debug\LinqInAction.Test.pdb
