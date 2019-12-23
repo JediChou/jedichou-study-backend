@@ -18,7 +18,8 @@
         private static void ReadXmlToOneline()
         {
             var rc = new XMLOpertion();
-            var line = rc.GetXMLStringFromFile(@"D:\ACN03PO.xml");
+            var line = rc.GetXMLStringFromFile(@"D:\ASB2019090003\HHPayReverse.xml");
+            // var line = rc.GetXMLStringFromFile(@"d:\temp\PaymentRequestHungary2-bak.xml");
             //var line = rc.GetXMLStringFromFile(@"D:\VietEA.xml");
             // var line = rc.GetXMLStringFromFile(@"d:\00000000-0000-0000-0000-000000000000.xml");
             Console.WriteLine(line);
