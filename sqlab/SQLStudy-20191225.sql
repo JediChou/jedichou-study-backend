@@ -1,0 +1,17 @@
+CREATE TABLE ShoppingCart(
+    [Week] INT NOT NULL,
+    [TotalPrice] DECIMAL DEFAULT(0) NOT NULL
+)
+
+INSERT INTO ShoppingCart([Week],[TotalPrice])
+SELECT 1,10 UNION ALL
+SELECT 2,20 UNION ALL
+SELECT 3,30 UNION ALL
+SELECT 4,40 UNION ALL
+SELECT 5,50 UNION ALL
+SELECT 6,60 UNION ALL
+SELECT 7,70
+SELECT * FROM ShoppingCart
+
+SELECT 'TotalPrice' AS [Week],[1],[2],[3],[4],[5],[6],[7]
+FROM ShoppingCart PIVOT(SUM(TotalPrice) FOR [Week] IN([1],[2],[3],[4],[5],[6],[7])) AS T 
