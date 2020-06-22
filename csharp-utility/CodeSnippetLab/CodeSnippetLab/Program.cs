@@ -17,11 +17,10 @@
         /// </summary>
         private static void ReadXmlToOneline()
         {
+            // CRMPEREQUEST
             var rc = new XMLOpertion();
-            var line = rc.GetXMLStringFromFile(@"D:\ASB2020040016\CRMPERequest.xml");
-            // var line = rc.GetXMLStringFromFile(@"d:\temp\PaymentRequestHungary2-bak.xml");
-            // var line = rc.GetXMLStringFromFile(@"D:\VietEA.xml");
-            // var line = rc.GetXMLStringFromFile(@"d:\00000000-0000-0000-0000-000000000000.xml");
+            var line = rc.GetXMLStringFromFile(@"D:\CRMPERequest-Jedi.xml");
+            // var line = rc.GetXMLStringFromFile(@"D:\CRMREQUEST\CRMPERequest-Jedi.xml");
             Console.WriteLine(line);
         }
 
