@@ -19,7 +19,7 @@
         {
             // CRMPEREQUEST
             var rc = new XMLOpertion();
-            var line = rc.GetXMLStringFromFile(@"D:\CRMPERequest-Jedi.xml");
+            var line = rc.GetXMLStringFromFile(@"D:\ASB2020080007\LuSalary-demo-17items.xml");
             // var line = rc.GetXMLStringFromFile(@"D:\CRMREQUEST\CRMPERequest-Jedi.xml");
             Console.WriteLine(line);
         }
